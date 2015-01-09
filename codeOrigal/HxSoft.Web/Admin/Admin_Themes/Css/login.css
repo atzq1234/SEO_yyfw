@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*Reset.css-Charming Honest Romantic Intelligent Smart*/
+body{margin:0;padding:0;color:#BDC9FF;font:12px/150% Arial,Helvetica,sans-serif;background:#FFF url(../images/login_bg.gif) no-repeat center top;}
+textarea, input, select {font:12px Arial,Helvetica,sans-serif;color:#fff;}
+#container{width:434px;height:378px;margin:46px auto;position:relative;background:url(../images/login_input_bg.gif) no-repeat right bottom;}
+#logo{width:131px;height:62px;position:absolute;left:0;top:0;background:url(../images/logo_index.gif) no-repeat center center;}
+#main{width:190px;width:122px;position:absolute;top:114px;left:128px;}
+table{vertical-align:middle;text-align:left;}
+.username,.code{background:url(../images/login_input.gif) no-repeat center center;width:121px;height:18px;border:medium none;padding:2px 4px 0; }
+.code{background:url(../images/login_code.gif) no-repeat center center;width:36px;}
+.loginbt{background:url(../images/login_bt.gif) no-repeat center center;cursor:pointer;border:medium none;width:44px;height:19px;text-align:center; vertical-align:middle;line-height:19px;}
+dt,dd{float:left;}
+.clear{clear:both;}
+.mr20{margin-right:20px;}
+.codeimg{width:63px;height:19px;margin-left:8px;margin-bottom:-4px;}
+.alert{color:#FFFC00;}

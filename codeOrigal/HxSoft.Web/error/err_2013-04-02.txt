@@ -1,0 +1,279 @@
+时间:2013/4/2 10:32:43
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/swfobject.js
+页面来源:http://localhost:1796/TongYinDiyAdmin.html
+---------------------------------------------------------------------------------------------------------------
+时间:2013/4/2 10:32:56
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/swfobject.js
+页面来源:http://localhost:1796/TongYinDiyAdmin.html
+---------------------------------------------------------------------------------------------------------------
+时间:2013/4/2 10:32:57
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:33:00
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:33:26
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:33:29
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:33:33
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:34:04
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:36:12
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:36:14
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:36:18
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:36:32
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:36:34
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:36:34
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:36:45
+IP:::1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 无法打开登录所请求的数据库 "DB_Tong2211"。登录失败。
+用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\code\VS2010\E8企业网站管理系统\trunk\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\code\VS2010\E8企业网站管理系统\trunk\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\code\VS2010\E8企业网站管理系统\trunk\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\code\VS2010\E8企业网站管理系统\trunk\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\code\VS2010\E8企业网站管理系统\trunk\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\Jimy\AppData\Local\Temp\Temporary ASP.NET Files\root\9dbf44db\ba33d4f9\App_Web_q3pt5ono.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2013/4/2 10:36:46
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:38:11
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:38:12
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:39:33
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2013/4/2 10:39:39
+IP:::1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico

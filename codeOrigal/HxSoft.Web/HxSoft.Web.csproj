@@ -1,0 +1,2589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2B8DEEFD-B70C-404E-88DC-A62B24EE0A24}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HxSoft.Web</RootNamespace>
+    <AssemblyName>HxSoft.Web</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\HxSoft.Web.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\HxSoft.Web.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\HxSoft.Web.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\HxSoft.Web.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Brettle.Web.NeatUpload, Version=1.3.3798.663, Culture=neutral, PublicKeyToken=c95290d92c5893c8" />
+    <Reference Include="Newtonsoft.Json.Net20, Version=4.0.2.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Extensions\1.0.61025.0__31bf3856ad364e35\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UrlRewritingNet.UrlRewriter, Version=2.0.60829.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\UrlRewritingNet.UrlRewriter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ad.htm" />
+    <Content Include="Admin\Admin.Config.ascx" />
+    <Content Include="Admin\Admin_Themes\Css\layout.css" />
+    <Content Include="Admin\Admin_Themes\Images\body_bg.png" />
+    <Content Include="Admin\Admin_Themes\Images\dot_home.gif" />
+    <Content Include="Admin\Admin_Themes\Images\down.gif" />
+    <Content Include="Admin\Admin_Themes\Images\inputBtn.png" />
+    <Content Include="Admin\Admin_Themes\Images\login.jpg" />
+    <Content Include="Admin\Admin_Themes\Images\up.gif" />
+    <Content Include="Admin\Admin_Themes\Images\verify.png" />
+    <Content Include="Admin\Article\ArticlePic.aspx" />
+    <Content Include="Admin\Article\ArticlePic_Add.aspx" />
+    <Content Include="Admin\Article\Article_Transfer.aspx" />
+    <Content Include="Admin\Block\Block.aspx" />
+    <Content Include="Admin\Block\Block_Add.aspx" />
+    <Content Include="Admin\Download\Download_Transfer.aspx" />
+    <Content Include="Admin\Download\Download.aspx" />
+    <Content Include="Admin\Download\Download_Add.aspx" />
+    <Content Include="Admin\Extension\Ad.aspx" />
+    <Content Include="Admin\Extension\AdPosition.aspx" />
+    <Content Include="Admin\Extension\AdPosition_Add.aspx" />
+    <Content Include="Admin\Extension\Ad_Add.aspx" />
+    <Content Include="Admin\Extension\Chat.aspx" />
+    <Content Include="Admin\Extension\Chat_Add.aspx" />
+    <Content Include="Admin\Extension\DataBackup.aspx" />
+    <Content Include="Admin\Extension\Link.aspx" />
+    <Content Include="Admin\Extension\Link_Add.aspx" />
+    <Content Include="Admin\Extension\Link_Transfer.aspx" />
+    <Content Include="Admin\Extension\Mail.aspx" />
+    <Content Include="Admin\Extension\Mail_Export.aspx" />
+    <Content Include="Admin\Extension\SiteMap.aspx" />
+    <Content Include="Admin\Job\Job_Transfer.aspx" />
+    <Content Include="Admin\Job\Job.aspx" />
+    <Content Include="Admin\Job\Job_Add.aspx" />
+    <Content Include="Admin\Message\Feedback.aspx" />
+    <Content Include="Admin\Message\Feedback_View.aspx" />
+    <Content Include="Admin\Message\Guestbook.aspx" />
+    <Content Include="Admin\Message\Guestbook_Add.aspx" />
+    <Content Include="Admin\Message\Message.aspx" />
+    <Content Include="Admin\Message\Message_View.aspx" />
+    <Content Include="Admin\Photo\Photo.aspx" />
+    <Content Include="Admin\Photo\Photo_Add.aspx" />
+    <Content Include="Admin\Product\Product_Copy.aspx" />
+    <Content Include="Admin\Product\Product_Transfer.aspx" />
+    <Content Include="Admin\Product\ProductPic.aspx" />
+    <Content Include="Admin\Product\ProductPic_Add.aspx" />
+    <Content Include="Admin\System\Set_Add.aspx" />
+    <Content Include="Admin\Survey\Survey_Transfer.aspx" />
+    <Content Include="Admin\Survey\Survey.aspx" />
+    <Content Include="Admin\Survey\SurveyItem.aspx" />
+    <Content Include="Admin\Survey\SurveyItem_Add.aspx" />
+    <Content Include="Admin\Survey\SurveyResult.aspx" />
+    <Content Include="Admin\Survey\SurveyResult_Details.aspx" />
+    <Content Include="Admin\Survey\Survey_Add.aspx" />
+    <Content Include="Admin\System\Admin.aspx" />
+    <Content Include="Admin\System\AdminGroup.aspx" />
+    <Content Include="Admin\System\AdminGroup_Add.aspx" />
+    <Content Include="Admin\System\Admin_Add.aspx" />
+    <Content Include="Admin\Article\Article.aspx" />
+    <Content Include="Admin\Article\Article_Add.aspx" />
+    <Content Include="Admin\System\Class.aspx" />
+    <Content Include="Admin\System\ClassProperty.aspx" />
+    <Content Include="Admin\System\ClassProperty_Add.aspx" />
+    <Content Include="Admin\System\ClassTemplate.aspx" />
+    <Content Include="Admin\System\ClassTemplate_Add.aspx" />
+    <Content Include="Admin\System\Class_Add.aspx" />
+    <Content Include="Admin\System\Class_Move.aspx" />
+    <Content Include="Admin\Index_Bottom.aspx" />
+    <Content Include="Admin\Index_Main.aspx" />
+    <Content Include="Admin\System\Config.aspx" />
+    <Content Include="Admin\System\Config_Add.aspx" />
+    <Content Include="Admin\Upload\Css\upload.css" />
+    <Content Include="Admin\Upload\File_BatchUpload_Dialog.aspx" />
+    <Content Include="Admin\Upload\images\error.gif" />
+    <Content Include="Admin\Upload\images\page_white_add.png" />
+    <Content Include="Admin\Upload\images\toobig.gif" />
+    <Content Include="Admin\Upload\images\uploadlimit.gif" />
+    <Content Include="Admin\Upload\images\XPButtonNoText_160x22.png" />
+    <Content Include="Admin\Upload\images\zerobyte.gif" />
+    <Content Include="Admin\Upload\js\handlers.js" />
+    <Content Include="Admin\Upload\js\swfupload.js" />
+    <Content Include="Admin\Upload\js\swfupload.swf" />
+    <Content Include="Admin\Upload\js\swfupload_fp9.swf" />
+    <Content Include="Admin\Upload\thumbnail.aspx" />
+    <Content Include="Admin\Upload\upload.aspx" />
+    <Content Include="Admin\User\UserRank.aspx" />
+    <Content Include="Admin\User\UserRank_Add.aspx" />
+    <Content Include="Admin\User\UserRank_SetLimit.aspx" />
+    <Content Include="Admin\Product\Product.aspx" />
+    <Content Include="Admin\Product\Product_Add.aspx" />
+    <Content Include="Admin\Admin_Themes\Images\area_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\bt_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\input_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\logo_in.gif" />
+    <Content Include="App_Themes\Js\format.js" />
+    <Content Include="Admin\User\User_Export.aspx" />
+    <Content Include="Admin\User\User_Import.aspx" />
+    <Content Include="Admin\User\User_Email_Export.aspx" />
+    <Content Include="Admin\Video\Video.aspx" />
+    <Content Include="Admin\Video\Video_Add.aspx" />
+    <Content Include="App_Data\area.mdb" />
+    <Content Include="App_Themes\artDialog\artDialog-4.1.6.iframe.plugins.js" />
+    <Content Include="App_Themes\artDialog\artDialog-4.1.6.js" />
+    <Content Include="App_Themes\artDialog\skins\aero.css" />
+    <Content Include="App_Themes\artDialog\skins\aero\aero_s.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\aero_s2.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\ie6\aui_close.hover.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\ie6\aui_close.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\ie6\aui_e.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\ie6\aui_n.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\ie6\aui_ne.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\ie6\aui_nw.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\ie6\aui_s.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\ie6\aui_se.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\ie6\aui_sw.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\ie6\aui_title_icon.png" />
+    <Content Include="App_Themes\artDialog\skins\aero\ie6\aui_w.png" />
+    <Content Include="App_Themes\artDialog\skins\black.css" />
+    <Content Include="App_Themes\artDialog\skins\black\bg.png" />
+    <Content Include="App_Themes\artDialog\skins\black\bg2.png" />
+    <Content Include="App_Themes\artDialog\skins\black\bg_css3.png" />
+    <Content Include="App_Themes\artDialog\skins\black\bg_css3_2.png" />
+    <Content Include="App_Themes\artDialog\skins\black\ie6\close.hover.png" />
+    <Content Include="App_Themes\artDialog\skins\black\ie6\close.png" />
+    <Content Include="App_Themes\artDialog\skins\black\ie6\e.png" />
+    <Content Include="App_Themes\artDialog\skins\black\ie6\n.png" />
+    <Content Include="App_Themes\artDialog\skins\black\ie6\ne.png" />
+    <Content Include="App_Themes\artDialog\skins\black\ie6\nw.png" />
+    <Content Include="App_Themes\artDialog\skins\black\ie6\s.png" />
+    <Content Include="App_Themes\artDialog\skins\black\ie6\se.png" />
+    <Content Include="App_Themes\artDialog\skins\black\ie6\sw.png" />
+    <Content Include="App_Themes\artDialog\skins\black\ie6\w.png" />
+    <Content Include="App_Themes\artDialog\skins\blue.css" />
+    <Content Include="App_Themes\artDialog\skins\blue\bg.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\bg2.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\bg_css3.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\bg_css3_2.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\ie6\close.hover.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\ie6\close.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\ie6\e.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\ie6\n.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\ie6\ne.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\ie6\nw.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\ie6\s.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\ie6\se.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\ie6\sw.png" />
+    <Content Include="App_Themes\artDialog\skins\blue\ie6\w.png" />
+    <Content Include="App_Themes\artDialog\skins\chrome.css" />
+    <Content Include="App_Themes\artDialog\skins\chrome\border.png" />
+    <Content Include="App_Themes\artDialog\skins\chrome\chrome_s.png" />
+    <Content Include="App_Themes\artDialog\skins\default.css" />
+    <Content Include="App_Themes\artDialog\skins\green.css" />
+    <Content Include="App_Themes\artDialog\skins\green\bg.png" />
+    <Content Include="App_Themes\artDialog\skins\green\bg2.png" />
+    <Content Include="App_Themes\artDialog\skins\green\bg_css3.png" />
+    <Content Include="App_Themes\artDialog\skins\green\bg_css3_2.png" />
+    <Content Include="App_Themes\artDialog\skins\green\color_bg.png" />
+    <Content Include="App_Themes\artDialog\skins\green\ie6\close.hover.png" />
+    <Content Include="App_Themes\artDialog\skins\green\ie6\close.png" />
+    <Content Include="App_Themes\artDialog\skins\green\ie6\e.png" />
+    <Content Include="App_Themes\artDialog\skins\green\ie6\n.png" />
+    <Content Include="App_Themes\artDialog\skins\green\ie6\ne.png" />
+    <Content Include="App_Themes\artDialog\skins\green\ie6\nw.png" />
+    <Content Include="App_Themes\artDialog\skins\green\ie6\s.png" />
+    <Content Include="App_Themes\artDialog\skins\green\ie6\se.png" />
+    <Content Include="App_Themes\artDialog\skins\green\ie6\sw.png" />
+    <Content Include="App_Themes\artDialog\skins\green\ie6\w.png" />
+    <Content Include="App_Themes\artDialog\skins\icons\error.png" />
+    <Content Include="App_Themes\artDialog\skins\icons\face-sad.png" />
+    <Content Include="App_Themes\artDialog\skins\icons\face-smile.png" />
+    <Content Include="App_Themes\artDialog\skins\icons\loading.gif" />
+    <Content Include="App_Themes\artDialog\skins\icons\question.png" />
+    <Content Include="App_Themes\artDialog\skins\icons\succeed.png" />
+    <Content Include="App_Themes\artDialog\skins\icons\warning.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog.css" />
+    <Content Include="App_Themes\artDialog\skins\idialog\idialog_s.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog\idialog_s2.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog\ie6\aui_close.hover.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog\ie6\aui_close.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog\ie6\aui_e.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog\ie6\aui_n.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog\ie6\aui_ne.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog\ie6\aui_nw.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog\ie6\aui_s.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog\ie6\aui_se.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog\ie6\aui_sw.png" />
+    <Content Include="App_Themes\artDialog\skins\idialog\ie6\aui_w.png" />
+    <Content Include="App_Themes\artDialog\skins\opera.css" />
+    <Content Include="App_Themes\artDialog\skins\opera\ie6\aui_close.hover.png" />
+    <Content Include="App_Themes\artDialog\skins\opera\ie6\aui_close.png" />
+    <Content Include="App_Themes\artDialog\skins\opera\ie6\aui_e.png" />
+    <Content Include="App_Themes\artDialog\skins\opera\ie6\aui_n.png" />
+    <Content Include="App_Themes\artDialog\skins\opera\ie6\aui_ne.png" />
+    <Content Include="App_Themes\artDialog\skins\opera\ie6\aui_nw.png" />
+    <Content Include="App_Themes\artDialog\skins\opera\ie6\aui_s.png" />
+    <Content Include="App_Themes\artDialog\skins\opera\ie6\aui_se.png" />
+    <Content Include="App_Themes\artDialog\skins\opera\ie6\aui_sw.png" />
+    <Content Include="App_Themes\artDialog\skins\opera\ie6\aui_w.png" />
+    <Content Include="App_Themes\artDialog\skins\opera\s1.png" />
+    <Content Include="App_Themes\artDialog\skins\opera\s2.png" />
+    <Content Include="App_Themes\artDialog\skins\simple.css" />
+    <Content Include="App_Themes\artDialog\skins\twitter.css" />
+    <Content Include="App_Themes\Css\jquery.dialog.css" />
+    <Content Include="App_Themes\fancyValidate\fancyValidate.additional.min.js" />
+    <Content Include="App_Themes\fancyValidate\fancyValidate.css" />
+    <Content Include="App_Themes\fancyValidate\fancyValidate.min.js" />
+    <Content Include="App_Themes\fancyValidate\fancyValidate.my.additional.js" />
+    <Content Include="App_Themes\fancyValidate\icons\accept.png" />
+    <Content Include="App_Themes\fancyValidate\icons\error.png" />
+    <Content Include="App_Themes\fancyValidate\icons\exclamation.png" />
+    <Content Include="App_Themes\fancyValidate\icons\gifs\accept.gif" />
+    <Content Include="App_Themes\fancyValidate\icons\gifs\error.gif" />
+    <Content Include="App_Themes\fancyValidate\icons\gifs\exclamation.gif" />
+    <Content Include="App_Themes\fancyValidate\icons\gifs\information.gif" />
+    <Content Include="App_Themes\fancyValidate\icons\information.png" />
+    <Content Include="App_Themes\Flash\Charts\Area2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\Bar2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\Bubble.swf" />
+    <Content Include="App_Themes\Flash\Charts\Column2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\Column3D.swf" />
+    <Content Include="App_Themes\Flash\Charts\Doughnut2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\Doughnut3D.swf" />
+    <Content Include="App_Themes\Flash\Charts\FCExporter.swf" />
+    <Content Include="App_Themes\Flash\Charts\Funnel.swf" />
+    <Content Include="App_Themes\Flash\Charts\InverseMSArea.swf" />
+    <Content Include="App_Themes\Flash\Charts\InverseMSColumn2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\InverseMSLine.swf" />
+    <Content Include="App_Themes\Flash\Charts\Line.swf" />
+    <Content Include="App_Themes\Flash\Charts\LogMSColumn2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\LogMSLine.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSArea.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSBar2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSBar3D.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSColumn2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSColumn3D.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSColumn3DLineDY.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSColumnLine3D.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSCombi2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSCombi3D.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSCombiDY2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSLine.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSSpline.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSSplineArea.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSStackedColumn2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\MSStackedColumn2DLineDY.swf" />
+    <Content Include="App_Themes\Flash\Charts\Pie2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\Pie3D.swf" />
+    <Content Include="App_Themes\Flash\Charts\Pyramid.swf" />
+    <Content Include="App_Themes\Flash\Charts\Scatter.swf" />
+    <Content Include="App_Themes\Flash\Charts\ScrollArea2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\ScrollColumn2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\ScrollCombi2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\ScrollCombiDY2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\ScrollLine2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\ScrollStackedColumn2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\Spline.swf" />
+    <Content Include="App_Themes\Flash\Charts\SplineArea.swf" />
+    <Content Include="App_Themes\Flash\Charts\SSGrid.swf" />
+    <Content Include="App_Themes\Flash\Charts\StackedArea2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\StackedBar2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\StackedBar3D.swf" />
+    <Content Include="App_Themes\Flash\Charts\StackedColumn2D.swf" />
+    <Content Include="App_Themes\Flash\Charts\StackedColumn3D.swf" />
+    <Content Include="App_Themes\Flash\Charts\StackedColumn3DLineDY.swf" />
+    <Content Include="App_Themes\Flash\flvplayer.swf" />
+    <Content Include="App_Themes\Images\onCorrect.gif" />
+    <Content Include="App_Themes\Images\onError.gif" />
+    <Content Include="App_Themes\Images\onLoad.gif" />
+    <Content Include="App_Themes\Jquery\jquery-lightbox-0.5\css\jquery.lightbox-0.5.css" />
+    <Content Include="App_Themes\Jquery\jquery-lightbox-0.5\images\lightbox-blank.gif" />
+    <Content Include="App_Themes\Jquery\jquery-lightbox-0.5\images\lightbox-btn-close.gif" />
+    <Content Include="App_Themes\Jquery\jquery-lightbox-0.5\images\lightbox-btn-next.gif" />
+    <Content Include="App_Themes\Jquery\jquery-lightbox-0.5\images\lightbox-btn-prev.gif" />
+    <Content Include="App_Themes\Jquery\jquery-lightbox-0.5\images\lightbox-ico-loading.gif" />
+    <Content Include="App_Themes\Jquery\jquery-lightbox-0.5\js\jquery.lightbox-0.5.min.js" />
+    <Content Include="App_Themes\Custom\ad.js" />
+    <Content Include="App_Themes\Custom\common.js" />
+    <Content Include="App_Themes\Js\FusionCharts.js" />
+    <Content Include="App_Themes\Jquery\jquery.jscroll.js" />
+    <Content Include="App_Themes\Js\MSClass-2.9.js" />
+    <Content Include="App_Themes\Js\swfobject.js" />
+    <Content Include="App_Themes\My97DatePicker\calendar.js" />
+    <Content Include="App_Themes\My97DatePicker\lang\en.js" />
+    <Content Include="App_Themes\My97DatePicker\lang\zh-cn.js" />
+    <Content Include="App_Themes\My97DatePicker\lang\zh-tw.js" />
+    <Content Include="App_Themes\My97DatePicker\skin\datePicker.gif" />
+    <Content Include="App_Themes\My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="App_Themes\My97DatePicker\skin\default\img.gif" />
+    <Content Include="App_Themes\My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="App_Themes\My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="App_Themes\My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="App_Themes\My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="App_Themes\My97DatePicker\WdatePicker.js" />
+    <Content Include="cn\css.css" />
+    <Content Include="cn\Css\css.css" />
+    <Content Include="cn\Images\case.jpg" />
+    <Content Include="cn\Images\case_banner.jpg" />
+    <Content Include="cn\Images\case_detail_img.jpg" />
+    <Content Include="cn\Images\case_img.jpg" />
+    <Content Include="cn\Images\chian_bank.png" />
+    <Content Include="cn\Images\contact_bg.jpg" />
+    <Content Include="cn\Images\dot.png" />
+    <Content Include="cn\Images\extension_banner.jpg" />
+    <Content Include="cn\Images\help_detail.jpg" />
+    <Content Include="cn\Images\help_detail_img.jpg" />
+    <Content Include="cn\Images\help_img.jpg" />
+    <Content Include="cn\Images\icbc_bank.png" />
+    <Content Include="cn\Images\icon_24.png" />
+    <Content Include="cn\Images\icon_8.png" />
+    <Content Include="cn\Images\js_bank.png" />
+    <Content Include="cn\Images\leftBtn.png" />
+    <Content Include="cn\Images\leftBtnHover.png" />
+    <Content Include="cn\Images\loading.gif" />
+    <Content Include="cn\Images\logo_footer.png" />
+    <Content Include="cn\Images\logo_header.png" />
+    <Content Include="cn\Images\next.png" />
+    <Content Include="cn\Images\payment_banner.jpg" />
+    <Content Include="cn\Images\png.png" />
+    <Content Include="cn\Images\prev.png" />
+    <Content Include="cn\Images\process_t.jpg" />
+    <Content Include="cn\Images\rightBtn.png" />
+    <Content Include="cn\Images\rightBtnHover.png" />
+    <Content Include="cn\Images\r_icon_24.png" />
+    <Content Include="cn\Images\seo-package.png" />
+    <Content Include="cn\Images\seoA.png" />
+    <Content Include="cn\Images\seoB.png" />
+    <Content Include="cn\Images\seoC.png" />
+    <Content Include="cn\Images\seoD.png" />
+    <Content Include="cn\Images\seo_com.bmp" />
+    <Content Include="cn\Images\seo_com2.bmp" />
+    <Content Include="cn\Images\two_code.jpg" />
+    <Content Include="cn\Images\website_banner.jpg" />
+    <Content Include="cn\Js\index.js" />
+    <Content Include="cn\Js\jquery.flexslider-min.js" />
+    <Content Include="cn\Js\jquery.min.js" />
+    <Content Include="cn\UserControl\WUC_Block_Content_Part.ascx" />
+    <Content Include="cn\UserControl\WUC_Photo_List.ascx" />
+    <Content Include="cn\UserControl\WUC_Video_Details.ascx" />
+    <Content Include="cn\UserControl\WUC_Video_List.ascx" />
+    <Content Include="cn\video_details.aspx" />
+    <Content Include="lib\Newtonsoft.Json.Net20.dll" />
+    <Content Include="cn\Css\style.css" />
+    <Content Include="cn\Css\chat_skin1.css" />
+    <Content Include="cn\Images\chat_skin1\im_bottom.gif" />
+    <Content Include="cn\Images\chat_skin1\im_mid.gif" />
+    <Content Include="cn\Images\chat_skin1\im_top.gif" />
+    <Content Include="cn\Js\web.js" />
+    <Content Include="cn\about.aspx" />
+    <Content Include="cn\article_details.aspx" />
+    <Content Include="cn\index.aspx" />
+    <Content Include="cn\case_details.aspx" />
+    <Content Include="cn\search.aspx" />
+    <Content Include="cn\Site.Config.ascx" />
+    <Content Include="cn\swf\ht6.swf" />
+    <Content Include="cn\UserControl\WUC_Ad_List_TopNum.ascx" />
+    <Content Include="cn\UserControl\WUC_Article_Details.ascx" />
+    <Content Include="cn\UserControl\WUC_Article_List.ascx" />
+    <Content Include="cn\UserControl\WUC_Article_List_TopNum.ascx" />
+    <Content Include="cn\UserControl\WUC_Banner.ascx" />
+    <Content Include="cn\UserControl\WUC_Chat.ascx" />
+    <Content Include="cn\UserControl\WUC_Footer.ascx" />
+    <Content Include="cn\UserControl\WUC_Class_Content.ascx" />
+    <Content Include="cn\UserControl\WUC_Class_Content_Part.ascx" />
+    <Content Include="cn\UserControl\WUC_Download_List.ascx" />
+    <Content Include="cn\UserControl\WUC_Feedback.ascx" />
+    <Content Include="cn\UserControl\WUC_Guestbook.ascx" />
+    <Content Include="cn\UserControl\WUC_Job_Details.ascx" />
+    <Content Include="cn\UserControl\WUC_Job_List.ascx" />
+    <Content Include="cn\UserControl\WUC_Left.ascx" />
+    <Content Include="cn\UserControl\WUC_Link.ascx" />
+    <Content Include="cn\UserControl\WUC_Nav.ascx" />
+    <Content Include="cn\UserControl\WUC_Product_Details.ascx" />
+    <Content Include="cn\UserControl\WUC_Product_List.ascx" />
+    <Content Include="cn\UserControl\WUC_Search_List.ascx" />
+    <Content Include="cn\UserControl\WUC_Sitemap.ascx" />
+    <Content Include="cn\UserControl\WUC_Survey_Details.ascx" />
+    <Content Include="cn\UserControl\WUC_Survey_List.ascx" />
+    <Content Include="cn\UserControl\WUC_Survey_List_TopNum.ascx" />
+    <Content Include="cn\UserControl\WUC_Header.ascx" />
+    <Content Include="cn\UserControl\WUC_Ad_List_TopNum2.ascx" />
+    <Content Include="cn\UserControl\WUC_Product_List_TopNum.ascx" />
+    <Content Include="cn\UserControl\WUC_Download_List_TopNum.ascx" />
+    <Content Include="cn\job_details.aspx" />
+    <Content Include="cn\survey_details.aspx" />
+    <Content Include="cn\UserControl\WUC_Job_List_TopNum.ascx" />
+    <Content Include="Common\ChkCode.aspx" />
+    <Content Include="Common\Demo.aspx" />
+    <Content Include="Admin\System\Limit.aspx" />
+    <Content Include="Admin\System\Limit_Add.aspx" />
+    <Content Include="Admin\System\Limit_Move.aspx" />
+    <Content Include="Admin\System\Admin_SetAdminGroup.aspx" />
+    <Content Include="Admin\System\AdminGroup_SetAdmin.aspx" />
+    <Content Include="Admin\System\AdminLog.aspx" />
+    <Content Include="Admin\Logout.aspx" />
+    <Content Include="Admin\ResetPassword.aspx" />
+    <Content Include="Admin\System\AdminGroup_SetLimit.aspx" />
+    <Content Include="Admin\Admin_Themes\Css\Style.css" />
+    <Content Include="App_Themes\Images\calendar.gif" />
+    <Content Include="Admin\Admin_Themes\Js\admin.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\CSs\default.css" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\html\calendar.html" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\html\calendarbottom.html" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\html\calendartop.html" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\html\crystalexportdialog.htm" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\html\crystalprinthost.html" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\calendar.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\crlogo.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\export.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\exportd.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\export_over.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\First.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\Firstd.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\first_over.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\gotopage.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\gotopaged.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\gotopage_over.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\grouptree.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\grouptreed.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\grouptreepressed.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\grouptree_over.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\Last.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\Lastd.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\last_over.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\Next.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\Nextd.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\next_over.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\Prev.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\Prevd.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\prev_over.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\print.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\printd.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\print_over.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\Refresh.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\refreshd.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\refresh_over.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\Search.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\searchd.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\search_over.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\up.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\upd.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\ToolBar\up_over.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\begindots.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\beginminus.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\beginplus.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\blank.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\blankdots.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\dots.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\lastdots.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\lastminus.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\lastplus.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\Magnify.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\minus.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\Minusbox.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\plus.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\Plusbox.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\singleminus.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\Images\Tree\singleplus.gif" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\calendar_param.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\dt_param.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\export.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\KeyDownEvent.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\print.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\prompts_param.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\strings_chs.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\strings_cht.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\strings_de.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\strings_en.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\strings_es.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\strings_fr.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\strings_it.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\strings_ja.js" />
+    <Content Include="aspnet_client\system_web\2_0_50727\CrystalReportWebFormViewer3\JS\strings_ko.js" />
+    <Content Include="Admin\Index_Index.aspx" />
+    <Content Include="Admin\Index_Left.aspx" />
+    <Content Include="Common\Error.aspx" />
+    <Content Include="Common\Export.aspx" />
+    <Content Include="Common\VerifyCode.aspx" />
+    <Content Include="FCKeditor\editor\css\behaviors\disablehandles.htc" />
+    <Content Include="FCKeditor\editor\css\behaviors\showtableborders.htc" />
+    <Content Include="FCKeditor\editor\css\fck_editorarea.css" />
+    <Content Include="FCKeditor\editor\css\fck_internal.css" />
+    <Content Include="FCKeditor\editor\css\fck_showtableborders_gecko.css" />
+    <Content Include="FCKeditor\editor\css\images\block_address.png" />
+    <Content Include="FCKeditor\editor\css\images\block_blockquote.png" />
+    <Content Include="FCKeditor\editor\css\images\block_div.png" />
+    <Content Include="FCKeditor\editor\css\images\block_h1.png" />
+    <Content Include="FCKeditor\editor\css\images\block_h2.png" />
+    <Content Include="FCKeditor\editor\css\images\block_h3.png" />
+    <Content Include="FCKeditor\editor\css\images\block_h4.png" />
+    <Content Include="FCKeditor\editor\css\images\block_h5.png" />
+    <Content Include="FCKeditor\editor\css\images\block_h6.png" />
+    <Content Include="FCKeditor\editor\css\images\block_p.png" />
+    <Content Include="FCKeditor\editor\css\images\block_pre.png" />
+    <Content Include="FCKeditor\editor\css\images\fck_anchor.gif" />
+    <Content Include="FCKeditor\editor\css\images\fck_flashlogo.gif" />
+    <Content Include="FCKeditor\editor\css\images\fck_hiddenfield.gif" />
+    <Content Include="FCKeditor\editor\css\images\fck_pagebreak.gif" />
+    <Content Include="FCKeditor\editor\css\images\fck_plugin.gif" />
+    <Content Include="FCKeditor\editor\dialog\common\fck_dialog_common.css" />
+    <Content Include="FCKeditor\editor\dialog\common\fck_dialog_common.js" />
+    <Content Include="FCKeditor\editor\dialog\common\images\locked.gif" />
+    <Content Include="FCKeditor\editor\dialog\common\images\reset.gif" />
+    <Content Include="FCKeditor\editor\dialog\common\images\unlocked.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_about.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_about\logo_fckeditor.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_about\logo_fredck.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_about\sponsors\spellchecker_net.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_anchor.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_button.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_checkbox.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_colorselector.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_div.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_docprops.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_docprops\fck_document_preview.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_flash.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_flash\fck_flash.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_flash\fck_flash_preview.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_form.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_hiddenfield.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_image.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_image\fck_image.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_image\fck_image_preview.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_link.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_link\fck_link.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_listprop.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_paste.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_radiobutton.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_replace.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_scayt.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_scayt\scayt_dialog.css" />
+    <Content Include="FCKeditor\editor\dialog\fck_select.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_select\fck_select.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_smiley.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_source.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_specialchar.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\blank.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\controls.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\controlWindow.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\spellchecker.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\spellChecker.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\spellerStyle.css" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\wordWindow.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_table.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_tablecell.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_template.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_template\images\template1.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_template\images\template2.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_template\images\template3.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_textarea.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_textfield.html" />
+    <Content Include="FCKeditor\editor\dtd\fck_dtd_test.html" />
+    <Content Include="FCKeditor\editor\dtd\fck_xhtml10strict.js" />
+    <Content Include="FCKeditor\editor\dtd\fck_xhtml10transitional.js" />
+    <Content Include="FCKeditor\editor\fckdebug.html" />
+    <Content Include="FCKeditor\editor\fckdialog.html" />
+    <Content Include="FCKeditor\editor\fckeditor.html" />
+    <Content Include="FCKeditor\editor\fckeditor.original.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\browser.css" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\browser.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\frmactualfolder.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\frmcreatefolder.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\frmfolders.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\frmresourceslist.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\frmresourcetype.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\frmupload.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\ButtonArrow.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\Folder.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\Folder32.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\FolderOpened.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\FolderOpened32.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\FolderUp.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\ai.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\avi.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\bmp.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\cs.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\default.icon.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\dll.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\doc.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\exe.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\fla.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\gif.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\htm.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\html.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\jpg.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\js.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\mdb.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\mp3.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\pdf.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\png.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\ppt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\rdp.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\swf.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\swt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\txt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\vsd.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\xls.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\xml.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\32\zip.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\ai.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\avi.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\bmp.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\cs.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\default.icon.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\dll.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\doc.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\exe.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\fla.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\gif.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\htm.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\html.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\jpg.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\js.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\mdb.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\mp3.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\pdf.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\png.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\ppt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\rdp.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\swf.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\swt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\txt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\vsd.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\xls.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\xml.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\icons\zip.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\images\spacer.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\js\common.js" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default\js\fckxml.js" />
+    <Content Include="FCKeditor\editor\filemanager\connectors\aspx\config.ascx" />
+    <Content Include="FCKeditor\editor\filemanager\connectors\aspx\connector.aspx" />
+    <Content Include="FCKeditor\editor\filemanager\connectors\aspx\upload.aspx" />
+    <Content Include="FCKeditor\editor\images\anchor.gif" />
+    <Content Include="FCKeditor\editor\images\arrow_ltr.gif" />
+    <Content Include="FCKeditor\editor\images\arrow_rtl.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\angel_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\angry_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\broken_heart.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\cake.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\confused_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\cry_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\devil_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\embaressed_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\envelope.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\heart.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\kiss.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\lightbulb.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\omg_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\regular_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\sad_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\shades_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\teeth_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\thumbs_down.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\thumbs_up.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\tounge_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\whatchutalkingabout_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\wink_smile.gif" />
+    <Content Include="FCKeditor\editor\images\spacer.gif" />
+    <Content Include="FCKeditor\editor\js\fckadobeair.js" />
+    <Content Include="FCKeditor\editor\js\fckeditorcode_gecko.js" />
+    <Content Include="FCKeditor\editor\js\fckeditorcode_ie.js" />
+    <Content Include="FCKeditor\editor\lang\en.js" />
+    <Content Include="FCKeditor\editor\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\lang\zh.js" />
+    <Content Include="FCKeditor\editor\plugins\acronym\acronym.css" />
+    <Content Include="FCKeditor\editor\plugins\acronym\acronym.gif" />
+    <Content Include="FCKeditor\editor\plugins\acronym\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\acronym\fck_acronym.html" />
+    <Content Include="FCKeditor\editor\plugins\acronym\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\acronym\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\autogrow\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\bbcode\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\bbcode\_sample\sample.config.js" />
+    <Content Include="FCKeditor\editor\plugins\bbcode\_sample\sample.html" />
+    <Content Include="FCKeditor\editor\plugins\dragresizetable\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\fileicon.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\fileicon.html" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\ai.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\avi.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\bmp.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\cs.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\dll.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\doc.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\exe.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\fla.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\gif.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\html.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\ico.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\jpg.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\js.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\mdb.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\mp3.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\pdf.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\png.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\ppt.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\rdp.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\swf.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\txt.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\vsd.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\xls.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\xml.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\32\zip.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\ai.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\avi.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\bmp.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\cs.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\dll.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\doc.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\exe.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\fla.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\gif.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\html.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\ico.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\jpg.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\js.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\mdb.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\mp3.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\pdf.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\png.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\ppt.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\rdp.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\swf.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\txt.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\vsd.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\xls.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\xml.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\icons\zip.gif" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\FileIcon\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\geckospellchecker\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\dialog\googleMaps.html" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\dialog\googleMaps.js" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\dialog\polyline.js" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\es.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\index.html" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\install.html" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\installation.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\install_es.html" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\marker.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\preview.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\styles.css" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\uk.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\users.html" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\users_es.html" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\user_dialog1.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\user_dialog2.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\user_dialog3.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\docs\user_dialog4.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\images\AddMarker.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\images\AddMarkerDown.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\images\mapIcon.gif" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\images\maps_res_logo.png" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\lang\zh.js" />
+    <Content Include="FCKeditor\editor\plugins\googlemaps\readme.html" />
+    <Content Include="FCKeditor\editor\plugins\htmltiles\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\htmltiles\fck_htmltiles.html" />
+    <Content Include="FCKeditor\editor\plugins\htmltiles\htmltiles.gif" />
+    <Content Include="FCKeditor\editor\plugins\htmltiles\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\htmltiles\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\css\imgmap.css" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\docs\index.html" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\docs\install.html" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\docs\installation.png" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\docs\styles.css" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\accept.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\add.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\bullet_green.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\bullet_orange.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\circle.png" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\clipboard.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\delete.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\edit.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\html.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\icon_default.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\icon_office2003.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\icon_silver.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\pointer.png" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\poly.png" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\rect.png" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\images\zoom.gif" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\jscripts\excanvas.js" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\jscripts\functions.js" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\jscripts\imgmap.js" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\jscripts\lang_en.js" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\jscripts\lang_es.js" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\license_GPL.txt" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\popup.html" />
+    <Content Include="FCKeditor\editor\plugins\imgmap\readme.html" />
+    <Content Include="FCKeditor\editor\plugins\insertcode\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\insertcode\fck_insertcode.html" />
+    <Content Include="FCKeditor\editor\plugins\insertcode\insertcode.css" />
+    <Content Include="FCKeditor\editor\plugins\insertcode\insertcode.gif" />
+    <Content Include="FCKeditor\editor\plugins\Insertplayer\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\Insertplayer\fck_Insertplayer.html" />
+    <Content Include="FCKeditor\editor\plugins\Insertplayer\Insertplayer.gif" />
+    <Content Include="FCKeditor\editor\plugins\Insertplayer\player.swf" />
+    <Content Include="FCKeditor\editor\plugins\kmp\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\kmp\kmp.gif" />
+    <Content Include="FCKeditor\editor\plugins\kmp\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\kmp\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\kmp\lang\zh.js" />
+    <Content Include="FCKeditor\editor\plugins\kmp\wpAudioPlay.html" />
+    <Content Include="FCKeditor\editor\plugins\kmp\wpAudioPlay.js" />
+    <Content Include="FCKeditor\editor\plugins\media\css\fck_media.css" />
+    <Content Include="FCKeditor\editor\plugins\media\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\media\fck_media.html" />
+    <Content Include="FCKeditor\editor\plugins\media\images\flash6.lg.gif" />
+    <Content Include="FCKeditor\editor\plugins\media\images\media.gif" />
+    <Content Include="FCKeditor\editor\plugins\media\images\media.png" />
+    <Content Include="FCKeditor\editor\plugins\media\images\media_logo.gif" />
+    <Content Include="FCKeditor\editor\plugins\media\images\quicktime.lg.gif" />
+    <Content Include="FCKeditor\editor\plugins\media\images\realone.lg.gif" />
+    <Content Include="FCKeditor\editor\plugins\media\images\shockwave.gif" />
+    <Content Include="FCKeditor\editor\plugins\media\images\winmedia.lg.gif" />
+    <Content Include="FCKeditor\editor\plugins\media\js\fck_media.js" />
+    <Content Include="FCKeditor\editor\plugins\media\js\fck_media_inc.js" />
+    <Content Include="FCKeditor\editor\plugins\media\js\fck_media_preview.html" />
+    <Content Include="FCKeditor\editor\plugins\media\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\media\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\movie\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\movie\filmreel.gif" />
+    <Content Include="FCKeditor\editor\plugins\movie\filmreel.png" />
+    <Content Include="FCKeditor\editor\plugins\movie\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\movie\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\movie\movieplayer.html" />
+    <Content Include="FCKeditor\editor\plugins\movie\movieplayer.js" />
+    <Content Include="FCKeditor\editor\plugins\movie\player_flv_maxi.swf" />
+    <Content Include="FCKeditor\editor\plugins\paypal\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\paypal\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\paypal\lang\es.js" />
+    <Content Include="FCKeditor\editor\plugins\paypal\paypal.gif" />
+    <Content Include="FCKeditor\editor\plugins\paypal\paypal.html" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\fck_placeholder.html" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\lang\de.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\lang\es.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\lang\fr.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\lang\it.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\lang\pl.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\placeholder.gif" />
+    <Content Include="FCKeditor\editor\plugins\remoteupload\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\remoteupload\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\remoteupload\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\remoteupload\loading.gif" />
+    <Content Include="FCKeditor\editor\plugins\remoteupload\remoteupload.gif" />
+    <Content Include="FCKeditor\editor\plugins\remoteupload\remoteupload.htm" />
+    <Content Include="FCKeditor\editor\plugins\remoteupload\save.asp" />
+    <Content Include="FCKeditor\editor\plugins\simplecommands\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\skype\1.png" />
+    <Content Include="FCKeditor\editor\plugins\skype\2.png" />
+    <Content Include="FCKeditor\editor\plugins\skype\3.png" />
+    <Content Include="FCKeditor\editor\plugins\skype\4.png" />
+    <Content Include="FCKeditor\editor\plugins\skype\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\skype\fck_skype.html" />
+    <Content Include="FCKeditor\editor\plugins\skype\INSTRUCTIONS.TXT" />
+    <Content Include="FCKeditor\editor\plugins\skype\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\skype\lang\lt.js" />
+    <Content Include="FCKeditor\editor\plugins\skype\skype.png" />
+    <Content Include="FCKeditor\editor\plugins\symbol\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\symbol\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\symbol\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\symbol\readme.txt" />
+    <Content Include="FCKeditor\editor\plugins\symbol\symbol.gif" />
+    <Content Include="FCKeditor\editor\plugins\symbol\symbol.html" />
+    <Content Include="FCKeditor\editor\plugins\symbol\symbol\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\symbol\symbol\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\symbol\symbol\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\symbol\symbol\readme.txt" />
+    <Content Include="FCKeditor\editor\plugins\symbol\symbol\symbol.gif" />
+    <Content Include="FCKeditor\editor\plugins\symbol\symbol\symbol.html" />
+    <Content Include="FCKeditor\editor\plugins\tablecommands\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\youtube\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\youtube\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\youtube\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\plugins\youtube\lang\zh.js" />
+    <Content Include="FCKeditor\editor\plugins\youtube\license.txt" />
+    <Content Include="FCKeditor\editor\plugins\youtube\readme.txt" />
+    <Content Include="FCKeditor\editor\plugins\youtube\release-notes.txt" />
+    <Content Include="FCKeditor\editor\plugins\youtube\youtube.gif" />
+    <Content Include="FCKeditor\editor\plugins\youtube\youtube.html" />
+    <Content Include="FCKeditor\editor\plugins\youtube\youtube.js" />
+    <Content Include="FCKeditor\editor\skins\default\fck_dialog.css" />
+    <Content Include="FCKeditor\editor\skins\default\fck_dialog_ie6.js" />
+    <Content Include="FCKeditor\editor\skins\default\fck_editor.css" />
+    <Content Include="FCKeditor\editor\skins\default\fck_strip.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\dialog.sides.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\dialog.sides.png" />
+    <Content Include="FCKeditor\editor\skins\default\images\dialog.sides.rtl.png" />
+    <Content Include="FCKeditor\editor\skins\default\images\sprites.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\sprites.png" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.arrowright.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.buttonarrow.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.collapse.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.end.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.expand.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.separator.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.start.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\fck_dialog.css" />
+    <Content Include="FCKeditor\editor\skins\office2003\fck_dialog_ie6.js" />
+    <Content Include="FCKeditor\editor\skins\office2003\fck_editor.css" />
+    <Content Include="FCKeditor\editor\skins\office2003\fck_strip.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\dialog.sides.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\dialog.sides.png" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\dialog.sides.rtl.png" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\sprites.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\sprites.png" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.arrowright.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.bg.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.buttonarrow.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.collapse.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.end.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.expand.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.separator.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.start.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\fck_dialog.css" />
+    <Content Include="FCKeditor\editor\skins\silver\fck_dialog_ie6.js" />
+    <Content Include="FCKeditor\editor\skins\silver\fck_editor.css" />
+    <Content Include="FCKeditor\editor\skins\silver\fck_strip.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\dialog.sides.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\dialog.sides.png" />
+    <Content Include="FCKeditor\editor\skins\silver\images\dialog.sides.rtl.png" />
+    <Content Include="FCKeditor\editor\skins\silver\images\sprites.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\sprites.png" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.arrowright.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.buttonarrow.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.buttonbg.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.collapse.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.end.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.expand.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.separator.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.start.gif" />
+    <Content Include="FCKeditor\editor\skins\_fckviewstrips.html" />
+    <Content Include="FCKeditor\editor\wsc\ciframe.html" />
+    <Content Include="FCKeditor\editor\wsc\tmpFrameset.html" />
+    <Content Include="FCKeditor\editor\wsc\w.html" />
+    <Content Include="FCKeditor\fckconfig.js" />
+    <Content Include="FCKeditor\fckpackager.xml" />
+    <Content Include="FCKeditor\fckstyles.xml" />
+    <Content Include="FCKeditor\fcktemplates.xml" />
+    <Content Include="FCKeditor\license.txt" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\dash.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\dashminus.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\dashplus.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\i.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\l.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\lminus.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\lplus.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\minus.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\noexpand.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\plus.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\r.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\rminus.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\rplus.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\t.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\tminus.gif" />
+    <Content Include="Admin\Admin_Themes\TreeLineImages\tplus.gif" />
+    <Content Include="Admin\Index_Top.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="NeatUpload\cancel.png" />
+    <Content Include="NeatUpload\default.css" />
+    <Content Include="NeatUpload\DONT_DELETE.txt" />
+    <Content Include="NeatUpload\Error413.aspx" />
+    <Content Include="NeatUpload\NeatUpload.js" />
+    <Content Include="NeatUpload\Progress.aspx" />
+    <Content Include="NeatUpload\Progress.js" />
+    <Content Include="NeatUpload\refresh.png" />
+    <Content Include="NeatUpload\SmoothProgress.aspx" />
+    <Content Include="NeatUpload\stop_refresh.png" />
+    <Content Include="NeatUpload\SWFUpload-license.txt" />
+    <Content Include="NeatUpload\SWFUpload.js" />
+    <Content Include="NeatUpload\SWFUpload.swf" />
+    <Content Include="test.aspx" />
+    <Content Include="User\Register.aspx" />
+    <Content Include="User\Message\Message_Add.aspx" />
+    <Content Include="User\Message\Message_List.aspx" />
+    <Content Include="User\Message\Message_View.aspx" />
+    <Content Include="App_Themes\Images\im_msn.jpg" />
+    <Content Include="App_Themes\Images\im_qq.jpg" />
+    <Content Include="App_Themes\Images\im_skype.jpg" />
+    <Content Include="User\User.Config.ascx" />
+    <Content Include="User\User_Themes\Js\user.js" />
+    <Content Include="404.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdClick.ashx.cs">
+      <DependentUpon>AdClick.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.Config.ascx.cs">
+      <DependentUpon>Admin.Config.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Config.ascx.designer.cs">
+      <DependentUpon>Admin.Config.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ajax\Ajax_FileHandle.ashx.cs">
+      <DependentUpon>Ajax_FileHandle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ajax\Ajax_File_IsExits.ashx.cs">
+      <DependentUpon>Ajax_File_IsExits.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ajax\Ajax_GetPinYin.ashx.cs">
+      <DependentUpon>Ajax_GetPinYin.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Article\ArticlePic.aspx.cs">
+      <DependentUpon>ArticlePic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Article\ArticlePic.aspx.designer.cs">
+      <DependentUpon>ArticlePic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Article\ArticlePic_Add.aspx.cs">
+      <DependentUpon>ArticlePic_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Article\ArticlePic_Add.aspx.designer.cs">
+      <DependentUpon>ArticlePic_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Article\Article_Transfer.aspx.cs">
+      <DependentUpon>Article_Transfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Article\Article_Transfer.aspx.designer.cs">
+      <DependentUpon>Article_Transfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Block\Block.aspx.cs">
+      <DependentUpon>Block.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Block\Block.aspx.designer.cs">
+      <DependentUpon>Block.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Block\Block_Add.aspx.cs">
+      <DependentUpon>Block_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Block\Block_Add.aspx.designer.cs">
+      <DependentUpon>Block_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Download\Download_Transfer.aspx.cs">
+      <DependentUpon>Download_Transfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Download\Download_Transfer.aspx.designer.cs">
+      <DependentUpon>Download_Transfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Download\Download.aspx.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Download\Download.aspx.designer.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Download\Download_Add.aspx.cs">
+      <DependentUpon>Download_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Download\Download_Add.aspx.designer.cs">
+      <DependentUpon>Download_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\Ad.aspx.cs">
+      <DependentUpon>Ad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\Ad.aspx.designer.cs">
+      <DependentUpon>Ad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\AdPosition.aspx.cs">
+      <DependentUpon>AdPosition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\AdPosition.aspx.designer.cs">
+      <DependentUpon>AdPosition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\AdPosition_Add.aspx.cs">
+      <DependentUpon>AdPosition_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\AdPosition_Add.aspx.designer.cs">
+      <DependentUpon>AdPosition_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\Ad_Add.aspx.cs">
+      <DependentUpon>Ad_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\Ad_Add.aspx.designer.cs">
+      <DependentUpon>Ad_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\Chat.aspx.cs">
+      <DependentUpon>Chat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\Chat.aspx.designer.cs">
+      <DependentUpon>Chat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\Chat_Add.aspx.cs">
+      <DependentUpon>Chat_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\Chat_Add.aspx.designer.cs">
+      <DependentUpon>Chat_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\DataBackup.aspx.cs">
+      <DependentUpon>DataBackup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\DataBackup.aspx.designer.cs">
+      <DependentUpon>DataBackup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\Link.aspx.cs">
+      <DependentUpon>Link.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\Link.aspx.designer.cs">
+      <DependentUpon>Link.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\Link_Add.aspx.cs">
+      <DependentUpon>Link_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\Link_Add.aspx.designer.cs">
+      <DependentUpon>Link_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\Link_Transfer.aspx.cs">
+      <DependentUpon>Link_Transfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\Link_Transfer.aspx.designer.cs">
+      <DependentUpon>Link_Transfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\Mail.aspx.cs">
+      <DependentUpon>Mail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\Mail.aspx.designer.cs">
+      <DependentUpon>Mail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\Mail_Export.aspx.cs">
+      <DependentUpon>Mail_Export.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\Mail_Export.aspx.designer.cs">
+      <DependentUpon>Mail_Export.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Extension\SiteMap.aspx.cs">
+      <DependentUpon>SiteMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Extension\SiteMap.aspx.designer.cs">
+      <DependentUpon>SiteMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Job\Job_Transfer.aspx.cs">
+      <DependentUpon>Job_Transfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Job\Job_Transfer.aspx.designer.cs">
+      <DependentUpon>Job_Transfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Job\Job.aspx.cs">
+      <DependentUpon>Job.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Job\Job.aspx.designer.cs">
+      <DependentUpon>Job.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Job\Job_Add.aspx.cs">
+      <DependentUpon>Job_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Job\Job_Add.aspx.designer.cs">
+      <DependentUpon>Job_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Message\Feedback.aspx.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Message\Feedback.aspx.designer.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Message\Feedback_View.aspx.cs">
+      <DependentUpon>Feedback_View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Message\Feedback_View.aspx.designer.cs">
+      <DependentUpon>Feedback_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Message\Guestbook.aspx.cs">
+      <DependentUpon>Guestbook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Message\Guestbook.aspx.designer.cs">
+      <DependentUpon>Guestbook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Message\Guestbook_Add.aspx.cs">
+      <DependentUpon>Guestbook_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Message\Guestbook_Add.aspx.designer.cs">
+      <DependentUpon>Guestbook_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Message\Message.aspx.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Message\Message.aspx.designer.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Message\Message_View.aspx.cs">
+      <DependentUpon>Message_View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Message\Message_View.aspx.designer.cs">
+      <DependentUpon>Message_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Photo\Photo.aspx.cs">
+      <DependentUpon>Photo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Photo\Photo.aspx.designer.cs">
+      <DependentUpon>Photo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Photo\Photo_Add.aspx.cs">
+      <DependentUpon>Photo_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Photo\Photo_Add.aspx.designer.cs">
+      <DependentUpon>Photo_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\Product_Copy.aspx.cs">
+      <DependentUpon>Product_Copy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\Product_Copy.aspx.designer.cs">
+      <DependentUpon>Product_Copy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\Product_Transfer.aspx.cs">
+      <DependentUpon>Product_Transfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\Product_Transfer.aspx.designer.cs">
+      <DependentUpon>Product_Transfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\ProductPic.aspx.cs">
+      <DependentUpon>ProductPic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\ProductPic.aspx.designer.cs">
+      <DependentUpon>ProductPic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\ProductPic_Add.aspx.cs">
+      <DependentUpon>ProductPic_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\ProductPic_Add.aspx.designer.cs">
+      <DependentUpon>ProductPic_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Set_Add.aspx.cs">
+      <DependentUpon>Set_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Set_Add.aspx.designer.cs">
+      <DependentUpon>Set_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Survey\Survey_Transfer.aspx.cs">
+      <DependentUpon>Survey_Transfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Survey\Survey_Transfer.aspx.designer.cs">
+      <DependentUpon>Survey_Transfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Survey\Survey.aspx.cs">
+      <DependentUpon>Survey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Survey\Survey.aspx.designer.cs">
+      <DependentUpon>Survey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Survey\SurveyItem.aspx.cs">
+      <DependentUpon>SurveyItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Survey\SurveyItem.aspx.designer.cs">
+      <DependentUpon>SurveyItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Survey\SurveyItem_Add.aspx.cs">
+      <DependentUpon>SurveyItem_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Survey\SurveyItem_Add.aspx.designer.cs">
+      <DependentUpon>SurveyItem_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Survey\SurveyResult.aspx.cs">
+      <DependentUpon>SurveyResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Survey\SurveyResult.aspx.designer.cs">
+      <DependentUpon>SurveyResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Survey\SurveyResult_Details.aspx.cs">
+      <DependentUpon>SurveyResult_Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Survey\SurveyResult_Details.aspx.designer.cs">
+      <DependentUpon>SurveyResult_Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Survey\Survey_Add.aspx.cs">
+      <DependentUpon>Survey_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Survey\Survey_Add.aspx.designer.cs">
+      <DependentUpon>Survey_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\ClassProperty.aspx.cs">
+      <DependentUpon>ClassProperty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\ClassProperty.aspx.designer.cs">
+      <DependentUpon>ClassProperty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\ClassProperty_Add.aspx.cs">
+      <DependentUpon>ClassProperty_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\ClassProperty_Add.aspx.designer.cs">
+      <DependentUpon>ClassProperty_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\ClassTemplate.aspx.cs">
+      <DependentUpon>ClassTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\ClassTemplate.aspx.designer.cs">
+      <DependentUpon>ClassTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\ClassTemplate_Add.aspx.cs">
+      <DependentUpon>ClassTemplate_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\ClassTemplate_Add.aspx.designer.cs">
+      <DependentUpon>ClassTemplate_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Config.aspx.cs">
+      <DependentUpon>Config.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Config.aspx.designer.cs">
+      <DependentUpon>Config.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Config_Add.aspx.cs">
+      <DependentUpon>Config_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Config_Add.aspx.designer.cs">
+      <DependentUpon>Config_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Upload\File_BatchUpload_Dialog.aspx.cs">
+      <DependentUpon>File_BatchUpload_Dialog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Upload\File_BatchUpload_Dialog.aspx.designer.cs">
+      <DependentUpon>File_BatchUpload_Dialog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Upload\thumbnail.aspx.cs">
+      <DependentUpon>thumbnail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Upload\thumbnail.aspx.designer.cs">
+      <DependentUpon>thumbnail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Upload\Thumbnail.cs" />
+    <Compile Include="Admin\Upload\upload.aspx.cs">
+      <DependentUpon>upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Upload\upload.aspx.designer.cs">
+      <DependentUpon>upload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User\UserRank.aspx.cs">
+      <DependentUpon>UserRank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User\UserRank.aspx.designer.cs">
+      <DependentUpon>UserRank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User\UserRank_Add.aspx.cs">
+      <DependentUpon>UserRank_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User\UserRank_Add.aspx.designer.cs">
+      <DependentUpon>UserRank_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User\UserRank_SetLimit.aspx.cs">
+      <DependentUpon>UserRank_SetLimit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User\UserRank_SetLimit.aspx.designer.cs">
+      <DependentUpon>UserRank_SetLimit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User\UserLog.aspx.cs">
+      <DependentUpon>UserLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User\UserLog.aspx.designer.cs">
+      <DependentUpon>UserLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User\User_Add.aspx.cs">
+      <DependentUpon>User_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User\User_Add.aspx.designer.cs">
+      <DependentUpon>User_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\AdminGroup.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>AdminGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\AdminGroup.aspx.designer.cs">
+      <DependentUpon>AdminGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\AdminGroup_Add.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>AdminGroup_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\AdminGroup_Add.aspx.designer.cs">
+      <DependentUpon>AdminGroup_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Area.aspx.cs">
+      <DependentUpon>Area.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Area.aspx.designer.cs">
+      <DependentUpon>Area.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Area_Add.aspx.cs">
+      <DependentUpon>Area_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Area_Add.aspx.designer.cs">
+      <DependentUpon>Area_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Area_Move.aspx.cs">
+      <DependentUpon>Area_Move.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Area_Move.aspx.designer.cs">
+      <DependentUpon>Area_Move.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Industry.aspx.cs">
+      <DependentUpon>Industry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Industry.aspx.designer.cs">
+      <DependentUpon>Industry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Industry_Add.aspx.cs">
+      <DependentUpon>Industry_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Industry_Add.aspx.designer.cs">
+      <DependentUpon>Industry_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Industry_Move.aspx.cs">
+      <DependentUpon>Industry_Move.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Industry_Move.aspx.designer.cs">
+      <DependentUpon>Industry_Move.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Dictionary.aspx.cs">
+      <DependentUpon>Dictionary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Dictionary.aspx.designer.cs">
+      <DependentUpon>Dictionary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Dictionary_Add.aspx.cs">
+      <DependentUpon>Dictionary_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Dictionary_Add.aspx.designer.cs">
+      <DependentUpon>Dictionary_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Dictionary_Move.aspx.cs">
+      <DependentUpon>Dictionary_Move.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Dictionary_Move.aspx.designer.cs">
+      <DependentUpon>Dictionary_Move.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Admin_Add.aspx.cs">
+      <DependentUpon>Admin_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Admin_Add.aspx.designer.cs">
+      <DependentUpon>Admin_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Article\Article.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Article\Article.aspx.designer.cs">
+      <DependentUpon>Article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Article\Article_Add.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Article_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Article\Article_Add.aspx.designer.cs">
+      <DependentUpon>Article_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Class.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Class.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Class.aspx.designer.cs">
+      <DependentUpon>Class.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Class_Add.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Class_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Class_Add.aspx.designer.cs">
+      <DependentUpon>Class_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Class_Move.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Class_Move.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Class_Move.aspx.designer.cs">
+      <DependentUpon>Class_Move.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index_Bottom.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Index_Bottom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index_Bottom.aspx.designer.cs">
+      <DependentUpon>Index_Bottom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index_Main.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Index_Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index_Main.aspx.designer.cs">
+      <DependentUpon>Index_Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\Product_Add.aspx.cs">
+      <DependentUpon>Product_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\Product_Add.aspx.designer.cs">
+      <DependentUpon>Product_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User\User_Export.aspx.cs">
+      <DependentUpon>User_Export.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User\User_Export.aspx.designer.cs">
+      <DependentUpon>User_Export.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User\User_Import.aspx.cs">
+      <DependentUpon>User_Import.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User\User_Import.aspx.designer.cs">
+      <DependentUpon>User_Import.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User\User_Email_Export.aspx.cs">
+      <DependentUpon>User_Email_Export.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User\User_Email_Export.aspx.designer.cs">
+      <DependentUpon>User_Email_Export.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Video\Video.aspx.cs">
+      <DependentUpon>Video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Video\Video.aspx.designer.cs">
+      <DependentUpon>Video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Video\Video_Add.aspx.cs">
+      <DependentUpon>Video_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Video\Video_Add.aspx.designer.cs">
+      <DependentUpon>Video_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdShow.ashx.cs">
+      <DependentUpon>AdShow.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\Ajax\Ajax_CollectEmail.ashx.cs">
+      <DependentUpon>Ajax_CollectEmail.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\Ajax\Ajax_Collection.ashx.cs">
+      <DependentUpon>Ajax_Collection.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\Ajax\Ajax_GetChildClass.ashx.cs">
+      <DependentUpon>Ajax_GetChildClass.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\Ajax\Ajax_GetChildIndustry.ashx.cs">
+      <DependentUpon>Ajax_GetChildIndustry.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\Ajax\Ajax_Login.ashx.cs">
+      <DependentUpon>Ajax_Login.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\article_details.aspx.cs">
+      <DependentUpon>article_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\article_details.aspx.designer.cs">
+      <DependentUpon>article_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\case_details.aspx.cs">
+      <DependentUpon>case_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\case_details.aspx.designer.cs">
+      <DependentUpon>case_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\rss.ashx.cs">
+      <DependentUpon>rss.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\Site.Config.ascx.cs">
+      <DependentUpon>Site.Config.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\Site.Config.ascx.designer.cs">
+      <DependentUpon>Site.Config.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\Site.master.cs">
+      <DependentUpon>Site.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\Site.master.designer.cs">
+      <DependentUpon>Site.master</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Ad_List_TopNum.ascx.cs">
+      <DependentUpon>WUC_Ad_List_TopNum.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Ad_List_TopNum.ascx.designer.cs">
+      <DependentUpon>WUC_Ad_List_TopNum.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Article_Details.ascx.cs">
+      <DependentUpon>WUC_Article_Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Article_Details.ascx.designer.cs">
+      <DependentUpon>WUC_Article_Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Article_List.ascx.cs">
+      <DependentUpon>WUC_Article_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Article_List.ascx.designer.cs">
+      <DependentUpon>WUC_Article_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Article_List_TopNum.ascx.cs">
+      <DependentUpon>WUC_Article_List_TopNum.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Article_List_TopNum.ascx.designer.cs">
+      <DependentUpon>WUC_Article_List_TopNum.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Banner.ascx.cs">
+      <DependentUpon>WUC_Banner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Banner.ascx.designer.cs">
+      <DependentUpon>WUC_Banner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Block_Content_Part.ascx.cs">
+      <DependentUpon>WUC_Block_Content_Part.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Block_Content_Part.ascx.designer.cs">
+      <DependentUpon>WUC_Block_Content_Part.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Chat.ascx.cs">
+      <DependentUpon>WUC_Chat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Chat.ascx.designer.cs">
+      <DependentUpon>WUC_Chat.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Footer.ascx.cs">
+      <DependentUpon>WUC_Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Footer.ascx.designer.cs">
+      <DependentUpon>WUC_Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Class_Content.ascx.cs">
+      <DependentUpon>WUC_Class_Content.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Class_Content.ascx.designer.cs">
+      <DependentUpon>WUC_Class_Content.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Class_Content_Part.ascx.cs">
+      <DependentUpon>WUC_Class_Content_Part.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Class_Content_Part.ascx.designer.cs">
+      <DependentUpon>WUC_Class_Content_Part.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Download_List.ascx.cs">
+      <DependentUpon>WUC_Download_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Download_List.ascx.designer.cs">
+      <DependentUpon>WUC_Download_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Feedback.ascx.cs">
+      <DependentUpon>WUC_Feedback.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Feedback.ascx.designer.cs">
+      <DependentUpon>WUC_Feedback.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Guestbook.ascx.cs">
+      <DependentUpon>WUC_Guestbook.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Guestbook.ascx.designer.cs">
+      <DependentUpon>WUC_Guestbook.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Job_Details.ascx.cs">
+      <DependentUpon>WUC_Job_Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Job_Details.ascx.designer.cs">
+      <DependentUpon>WUC_Job_Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Job_List.ascx.cs">
+      <DependentUpon>WUC_Job_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Job_List.ascx.designer.cs">
+      <DependentUpon>WUC_Job_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Left.ascx.cs">
+      <DependentUpon>WUC_Left.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Left.ascx.designer.cs">
+      <DependentUpon>WUC_Left.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Link.ascx.cs">
+      <DependentUpon>WUC_Link.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Link.ascx.designer.cs">
+      <DependentUpon>WUC_Link.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Nav.ascx.cs">
+      <DependentUpon>WUC_Nav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Nav.ascx.designer.cs">
+      <DependentUpon>WUC_Nav.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Photo_List.ascx.cs">
+      <DependentUpon>WUC_Photo_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Photo_List.ascx.designer.cs">
+      <DependentUpon>WUC_Photo_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Product_Details.ascx.cs">
+      <DependentUpon>WUC_Product_Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Product_Details.ascx.designer.cs">
+      <DependentUpon>WUC_Product_Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Product_List.ascx.cs">
+      <DependentUpon>WUC_Product_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Product_List.ascx.designer.cs">
+      <DependentUpon>WUC_Product_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Search_List.ascx.cs">
+      <DependentUpon>WUC_Search_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Search_List.ascx.designer.cs">
+      <DependentUpon>WUC_Search_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Sitemap.ascx.cs">
+      <DependentUpon>WUC_Sitemap.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Sitemap.ascx.designer.cs">
+      <DependentUpon>WUC_Sitemap.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Survey_Details.ascx.cs">
+      <DependentUpon>WUC_Survey_Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Survey_Details.ascx.designer.cs">
+      <DependentUpon>WUC_Survey_Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Survey_List.ascx.cs">
+      <DependentUpon>WUC_Survey_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Survey_List.ascx.designer.cs">
+      <DependentUpon>WUC_Survey_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Survey_List_TopNum.ascx.cs">
+      <DependentUpon>WUC_Survey_List_TopNum.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Survey_List_TopNum.ascx.designer.cs">
+      <DependentUpon>WUC_Survey_List_TopNum.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Header.ascx.cs">
+      <DependentUpon>WUC_Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Header.ascx.designer.cs">
+      <DependentUpon>WUC_Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Product_List_TopNum.ascx.cs">
+      <DependentUpon>WUC_Product_List_TopNum.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Product_List_TopNum.ascx.designer.cs">
+      <DependentUpon>WUC_Product_List_TopNum.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Download_List_TopNum.ascx.cs">
+      <DependentUpon>WUC_Download_List_TopNum.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Download_List_TopNum.ascx.designer.cs">
+      <DependentUpon>WUC_Download_List_TopNum.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\job_details.aspx.cs">
+      <DependentUpon>job_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\job_details.aspx.designer.cs">
+      <DependentUpon>job_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\survey_details.aspx.cs">
+      <DependentUpon>survey_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\survey_details.aspx.designer.cs">
+      <DependentUpon>survey_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Job_List_TopNum.ascx.cs">
+      <DependentUpon>WUC_Job_List_TopNum.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Job_List_TopNum.ascx.designer.cs">
+      <DependentUpon>WUC_Job_List_TopNum.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\Ajax\Ajax_GetChildArea.ashx.cs">
+      <DependentUpon>Ajax_GetChildArea.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\Ajax\Ajax_GetChildDictionary.ashx.cs">
+      <DependentUpon>Ajax_GetChildDictionary.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Video_Details.ascx.cs">
+      <DependentUpon>WUC_Video_Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Video_Details.ascx.designer.cs">
+      <DependentUpon>WUC_Video_Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Video_List.ascx.cs">
+      <DependentUpon>WUC_Video_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\UserControl\WUC_Video_List.ascx.designer.cs">
+      <DependentUpon>WUC_Video_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cn\video_details.aspx.cs">
+      <DependentUpon>video_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cn\video_details.aspx.designer.cs">
+      <DependentUpon>video_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Ajax\Ajax_CheckUserName.ashx.cs">
+      <DependentUpon>Ajax_CheckUserName.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Ajax\Ajax_CheckVerifyCode.ashx.cs">
+      <DependentUpon>Ajax_CheckVerifyCode.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ChkCode.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ChkCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ChkCode.aspx.designer.cs">
+      <DependentUpon>ChkCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\DataBackup.aspx.cs">
+      <DependentUpon>DataBackup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\DataBackup.aspx.designer.cs">
+      <DependentUpon>DataBackup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\DataStruct.aspx.cs">
+      <DependentUpon>DataStruct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\DataStruct.aspx.designer.cs">
+      <DependentUpon>DataStruct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Demo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Demo.aspx.designer.cs">
+      <DependentUpon>Demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Limit.aspx.cs">
+      <DependentUpon>Limit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Limit.aspx.designer.cs">
+      <DependentUpon>Limit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Limit_Add.aspx.cs">
+      <DependentUpon>Limit_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Limit_Add.aspx.designer.cs">
+      <DependentUpon>Limit_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Limit_Move.aspx.cs">
+      <DependentUpon>Limit_Move.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Limit_Move.aspx.designer.cs">
+      <DependentUpon>Limit_Move.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index_Index.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Index_Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index_Index.aspx.designer.cs">
+      <DependentUpon>Index_Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index_Left.aspx.cs">
+      <DependentUpon>Index_Left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Index_Left.aspx.designer.cs">
+      <DependentUpon>Index_Left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\Admin_SetAdminGroup.aspx.cs">
+      <DependentUpon>Admin_SetAdminGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\Admin_SetAdminGroup.aspx.designer.cs">
+      <DependentUpon>Admin_SetAdminGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\AdminGroup_SetAdmin.aspx.cs">
+      <DependentUpon>AdminGroup_SetAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\AdminGroup_SetAdmin.aspx.designer.cs">
+      <DependentUpon>AdminGroup_SetAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\AdminLog.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>AdminLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\AdminLog.aspx.designer.cs">
+      <DependentUpon>AdminLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LogOut.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LogOut.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ResetPassword.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\System\AdminGroup_SetLimit.aspx.cs">
+      <DependentUpon>AdminGroup_SetLimit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\System\AdminGroup_SetLimit.aspx.designer.cs">
+      <DependentUpon>AdminGroup_SetLimit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Export.aspx.cs">
+      <DependentUpon>Export.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\Export.aspx.designer.cs">
+      <DependentUpon>Export.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Request.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Request.aspx.designer.cs">
+      <DependentUpon>Request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\VerifyCode.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>VerifyCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\VerifyCode.aspx.designer.cs">
+      <DependentUpon>VerifyCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index_Top.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Index_Top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index_Top.aspx.designer.cs">
+      <DependentUpon>Index_Top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Upload\File_Preview.aspx.cs">
+      <DependentUpon>File_Preview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Upload\File_Preview.aspx.designer.cs">
+      <DependentUpon>File_Preview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Upload\File_Select_Dialog.aspx.cs">
+      <DependentUpon>File_Select_Dialog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Upload\File_Select_Dialog.aspx.designer.cs">
+      <DependentUpon>File_Select_Dialog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Upload\File_Upload_Dialog.aspx.cs">
+      <DependentUpon>File_Upload_Dialog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Upload\File_Upload_Dialog.aspx.designer.cs">
+      <DependentUpon>File_Upload_Dialog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Upload\Folder_Create.aspx.cs">
+      <DependentUpon>Folder_Create.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Upload\Folder_Create.aspx.designer.cs">
+      <DependentUpon>Folder_Create.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Account\PassQuestion.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>PassQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Account\PassQuestion.aspx.designer.cs">
+      <DependentUpon>PassQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Account\ResetPassword.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Account\ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Account\UserInfo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Account\UserInfo.aspx.designer.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Message\Message_Add.aspx.cs">
+      <DependentUpon>Message_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Message\Message_Add.aspx.designer.cs">
+      <DependentUpon>Message_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Message\Message_List.aspx.cs">
+      <DependentUpon>Message_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Message\Message_List.aspx.designer.cs">
+      <DependentUpon>Message_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Message\Message_View.aspx.cs">
+      <DependentUpon>Message_View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Message\Message_View.aspx.designer.cs">
+      <DependentUpon>Message_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Login.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Logout.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\User.Config.ascx.cs">
+      <DependentUpon>User.Config.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\User.Config.ascx.designer.cs">
+      <DependentUpon>User.Config.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User\User.master.cs">
+      <DependentUpon>User.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\User.master.designer.cs">
+      <DependentUpon>User.master</DependentUpon>
+    </Compile>
+    <Compile Include="cn\DownloadClick.ashx.cs">
+      <DependentUpon>DownloadClick.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin_Themes\Css\login.css" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\User\User.aspx" />
+    <Content Include="Admin\User\UserLog.aspx" />
+    <Content Include="Admin\User\User_Add.aspx" />
+    <Content Include="Admin\System\Area.aspx" />
+    <Content Include="Admin\System\Area_Add.aspx" />
+    <Content Include="Admin\System\Area_Move.aspx" />
+    <Content Include="Admin\System\Industry.aspx" />
+    <Content Include="Admin\System\Industry_Add.aspx" />
+    <Content Include="Admin\System\Industry_Move.aspx" />
+    <Content Include="Admin\System\Dictionary.aspx" />
+    <Content Include="Admin\System\Dictionary_Add.aspx" />
+    <Content Include="Admin\System\Dictionary_Move.aspx" />
+    <Content Include="AdClick.ashx" />
+    <Content Include="AdShow.ashx" />
+    <Content Include="cn\Ajax\Ajax_CollectEmail.ashx" />
+    <Content Include="cn\Site.master" />
+    <Content Include="cn\Ajax\Ajax_Collection.ashx" />
+    <Content Include="cn\Ajax\Ajax_GetChildClass.ashx" />
+    <Content Include="Admin\Ajax\Ajax_GetPinYin.ashx" />
+    <Content Include="Admin\Ajax\Ajax_File_IsExits.ashx" />
+    <Content Include="cn\Ajax\Ajax_GetChildIndustry.ashx" />
+    <Content Include="Admin\Ajax\Ajax_FileHandle.ashx" />
+    <None Include="App_Themes\fancyValidate\icons\Thumbs.db" />
+    <None Include="App_Themes\Jquery\jquery-lightbox-0.5\images\Thumbs.db" />
+    <Content Include="cn\rss.ashx" />
+    <Content Include="cn\Ajax\Ajax_Login.ashx" />
+    <None Include="cn\Images\icon.psd" />
+    <None Include="cn\swf\ht6.fla" />
+    <Content Include="cn\Ajax\Ajax_GetChildArea.ashx" />
+    <Content Include="cn\Ajax\Ajax_GetChildDictionary.ashx" />
+    <Content Include="Common\Ajax\Ajax_CheckUserName.ashx" />
+    <Content Include="Common\Ajax\Ajax_CheckVerifyCode.ashx" />
+    <None Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.cfm" />
+    <None Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.php" />
+    <None Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.pl" />
+    <Content Include="Admin\Admin_Themes\FileImages\accdb.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\as.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\asm.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\aspx.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\avi.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\bmp.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\c.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\cab.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\cfc.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\chm.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\cpp.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\cs.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\css.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\db.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\default.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\dll.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\doc.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\docx.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\eip.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\exe.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\fla.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\flv.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\Folder.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\gif.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\h.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\html.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\jpg.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\js.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\mdb.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\mp3.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\mpeg.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\mpg.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\msi.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\pdf.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\php.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\png.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\ppt.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\pptx.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\psd.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\rar.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\rtf.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\sln.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\swf.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\tif.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\txt.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\vb.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\vs.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\wav.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\wma.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\wmv.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\xls.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\xlsx.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\xml.gif" />
+    <Content Include="Admin\Admin_Themes\FileImages\zip.gif" />
+    <Content Include="Admin\Admin_Themes\Images\content_bt_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\content_leftcorner.gif" />
+    <Content Include="Admin\Admin_Themes\Images\control_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\dot_feedback.gif" />
+    <Content Include="Admin\Admin_Themes\Images\dot_help.gif" />
+    <Content Include="Admin\Admin_Themes\Images\dot_li_standard.gif" />
+    <Content Include="Admin\Admin_Themes\Images\loading.gif" />
+    <Content Include="Admin\Admin_Themes\Images\login_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\bottom_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\esc.gif" />
+    <Content Include="Admin\Admin_Themes\Images\btn_login.gif" />
+    <Content Include="Admin\Admin_Themes\Images\login_bt.gif" />
+    <Content Include="Admin\Admin_Themes\Images\login_code.gif" />
+    <Content Include="Admin\Admin_Themes\Images\login_input.gif" />
+    <Content Include="Admin\Admin_Themes\Images\login_input_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\btn_reset.gif" />
+    <Content Include="Admin\Admin_Themes\Images\main_bottom_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu2_bottom.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu2_dot.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu2_top.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu_contract_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu_contract_bg_hover.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu_no_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu_no_bg_hover.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu_plus_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu_plus_bg_hover.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu_reset_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu_shadow_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu_shadow_bottom.gif" />
+    <Content Include="Admin\Admin_Themes\Images\menu_top.gif" />
+    <Content Include="Admin\Admin_Themes\Images\nav_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\nav_dot.gif" />
+    <Content Include="Admin\Admin_Themes\Images\tabletit_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\top2_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\top_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\top_left.gif" />
+    <Content Include="Admin\Admin_Themes\Images\top_left_bg.gif" />
+    <Content Include="Admin\Admin_Themes\Images\top_middle_top.gif" />
+    <Content Include="App_Themes\Jquery\jquery.dialog.js" />
+    <Content Include="App_Themes\Jquery\jquery.Drag.js" />
+    <Content Include="lib\AJAXExtensionsToolbox.dll" />
+    <Content Include="lib\Brettle.Web.NeatUpload.dll" />
+    <Content Include="lib\Brettle.Web.NeatUpload.HashedInputFile.dll" />
+    <Content Include="lib\System.Web.Extensions.Design.dll" />
+    <Content Include="lib\System.Web.Extensions.dll" />
+    <Content Include="lib\UrlRewritingNet.UrlRewriter.dll" />
+    <Content Include="Common\DataBackup.aspx" />
+    <Content Include="Common\DataStruct.aspx" />
+    <Content Include="Common\Request.aspx" />
+    <Content Include="Admin\Upload\File_Preview.aspx" />
+    <Content Include="Admin\Upload\File_Select_Dialog.aspx" />
+    <Content Include="Admin\Upload\File_Upload_Dialog.aspx" />
+    <Content Include="App_Themes\Flash\flashplay.swf" />
+    <Content Include="Admin\Upload\Folder_Create.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="App_Themes\Jquery\jquery-1.4.2.min.js" />
+    <Content Include="User\Account\PassQuestion.aspx" />
+    <Content Include="User\Account\ResetPassword.aspx" />
+    <Content Include="User\Account\UserInfo.aspx" />
+    <Content Include="User\Login.aspx" />
+    <Content Include="User\Logout.aspx" />
+    <Content Include="User\User.master" />
+    <Content Include="User\User_Themes\Css\Style.css" />
+    <Content Include="App_Themes\Images\no.gif" />
+    <Content Include="App_Themes\Images\ok.gif" />
+    <Content Include="cn\DownloadClick.ashx" />
+    <Content Include="NeatUpload\MultiRequestUploadHandler.ashx" />
+    <None Include="NeatUpload\NeatUploadConfig.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NeatUpload\NeatUploadConfig.xsx">
+      <DependentUpon>NeatUploadConfig.xsd</DependentUpon>
+    </None>
+    <Content Include="NeatUpload\ProgressJsonHandler.ashx" />
+    <Content Include="NeatUpload\UploadStateStoreHandler.ashx" />
+    <Content Include="NeatUpload\Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="en\" />
+    <Folder Include="Files\" />
+    <Folder Include="User\Ajax\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FredCK.FCKeditorV2\FredCK.FCKeditorV2.csproj">
+      <Project>{F6F32704-97E0-4006-A474-5A9729C6B1B4}</Project>
+      <Name>FredCK.FCKeditorV2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HxSoft.BLL\HxSoft.BLL.csproj">
+      <Project>{E1AF53B0-3369-4D8E-B8C6-E7D9F6BF0A8B}</Project>
+      <Name>HxSoft.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HxSoft.ClassFactory\HxSoft.ClassFactory.csproj">
+      <Project>{1A5B469C-C338-481A-B19C-696F4C854B0A}</Project>
+      <Name>HxSoft.ClassFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HxSoft.Common\HxSoft.Common.csproj">
+      <Project>{E90E5A97-2652-4BE3-AA1E-FE90D3C58A49}</Project>
+      <Name>HxSoft.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HxSoft.Model\HxSoft.Model.csproj">
+      <Project>{DEAEAD96-247F-41A5-8AAD-5DB9DA68B037}</Project>
+      <Name>HxSoft.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSXML2">
+      <Guid>{F5078F18-C551-11D3-89B9-0000F81FE221}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1796</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

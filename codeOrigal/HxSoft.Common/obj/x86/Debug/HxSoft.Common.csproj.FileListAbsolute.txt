@@ -1,0 +1,11 @@
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\bin\x86\Debug\HxSoft.Common.dll
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\bin\x86\Debug\HxSoft.Common.pdb
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\bin\x86\Debug\InsideSystem.Utility.dll
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\bin\x86\Debug\MySql.Data.dll
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\bin\x86\Debug\Newtonsoft.Json.Net20.dll
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\bin\x86\Debug\Interop.MSXML2.dll
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\obj\x86\Debug\Interop.MSXML2.dll
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\obj\x86\Debug\HxSoft.Common.csproj.ResolveComReference.cache
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\obj\x86\Debug\HxSoft.Common.dll
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\obj\x86\Debug\HxSoft.Common.pdb

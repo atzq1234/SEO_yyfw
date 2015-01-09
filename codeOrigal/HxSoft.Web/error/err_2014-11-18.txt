@@ -1,0 +1,609 @@
+时间:2014-11-18 00:32:42
+IP:127.0.0.1
+错误描述:文件“/Admin/Extension/SearchEngine.aspx”不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Void CheckVirtualFileExists(System.Web.VirtualPath)
+引发错误的路径:http://localhost:1796/Admin/Extension/SearchEngine.aspx
+时间:2014-11-18 00:32:43
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2014-11-18 00:33:16
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL 网络接口, error: 26 - 定位指定的服务器/实例时出错)
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_llebycbu.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-18 23:14:59
+IP:127.0.0.1
+错误描述:文件“/Admin/Extension/SearchEngine.aspx”不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Void CheckVirtualFileExists(System.Web.VirtualPath)
+引发错误的路径:http://localhost:1796/Admin/Extension/SearchEngine.aspx
+时间:2014-11-18 23:15:01
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2014-11-18 23:15:33
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/Admin/Admin_Themes/images/headline.gif
+页面来源:http://localhost:1796/Admin/Admin_Themes/Css/Style.css
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:16:27
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:16:27
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:16:28
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:16:29
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:16:32
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/images/case_img.jpg
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:18:52
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:18:52
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:18:53
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:18:53
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:18:54
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/images/case_img.jpg
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:19:43
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:19:43
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:19:44
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:19:44
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:19:50
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:19:50
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:19:50
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:19:50
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:37:12
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:37:12
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:37:12
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:37:12
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:41:17
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:41:17
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:41:18
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:41:18
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:48:03
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:48:04
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:48:04
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:48:04
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:48:06
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/images/case_img.jpg
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-18 23:51:42
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 不能将值 NULL 插入列 'DictionaryID'，表 'seo.dbo.t_Dictionary'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 HxSoft.Common.SqlHelper.ExecuteSql(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 108
+   在 HxSoft.Common.DbHelper.ExecuteSql(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 79
+   在 HxSoft.DAL.DictionaryDAL.InsertInfo(DictionaryModel dictModel) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\DictionaryDAL.cs:行号 149
+   在 HxSoft.BLL.DictionaryBLL.InsertInfo(DictionaryModel dictModel) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\DictionaryBLL.cs:行号 81
+   在 HxSoft.Web.Admin._System.Dictionary_Add.btnSave_Click(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\Admin\System\Dictionary_Add.aspx.cs:行号 188
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.admin_system_dictionary_add_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_abec0nph.5.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/admin/System/Dictionary_Add.aspx?ParentID=0
+页面来源:http://localhost:1796/admin/System/Dictionary_Add.aspx?ParentID=0
+---------------------------------------------------------------------------------------------------------------

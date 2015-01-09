@@ -1,0 +1,561 @@
+时间:2014-11-19 00:12:45
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 必须声明标量变量 "@ProductTypeID"。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HxSoft.Common.SqlHelper.GetDataSet(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 63
+   在 HxSoft.Common.DbHelper.GetDataSet(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 54
+   在 HxSoft.DAL.AccDAL.GetDataTable(String strSql, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AccDAL.cs:行号 29
+   在 HxSoft.BLL.AccBLL.DataPageBindForCn(String strSql, DbParameter[] cmdParams, String objType, Object obj, Int32 PageSize, Int32 CurrentPage, String PageUrl) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AccBLL.cs:行号 110
+   在 HxSoft.Web.cn.UserControl.WUC_Product_List.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Product_List.ascx.cs:行号 230
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_about_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_bnqvaqiv.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/Case.html?ClassEnName=Case
+页面来源:http://localhost:1796/cn/index.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 00:12:51
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 必须声明标量变量 "@ProductTypeID"。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HxSoft.Common.SqlHelper.GetDataSet(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 63
+   在 HxSoft.Common.DbHelper.GetDataSet(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 54
+   在 HxSoft.DAL.AccDAL.GetDataTable(String strSql, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AccDAL.cs:行号 29
+   在 HxSoft.BLL.AccBLL.DataPageBindForCn(String strSql, DbParameter[] cmdParams, String objType, Object obj, Int32 PageSize, Int32 CurrentPage, String PageUrl) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AccBLL.cs:行号 110
+   在 HxSoft.Web.cn.UserControl.WUC_Product_List.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Product_List.ascx.cs:行号 230
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_about_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_bnqvaqiv.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/Case.html?ClassEnName=Case
+页面来源:http://localhost:1796/cn/index.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 00:15:04
+IP:127.0.0.1
+错误描述:文件“/cn/Case.aspx”不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Void CheckVirtualFileExists(System.Web.VirtualPath)
+引发错误的路径:http://localhost:1796/cn/Case.aspx?ProductTypeID=9
+页面来源:http://localhost:1796/cn/Case.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 00:15:11
+IP:127.0.0.1
+错误描述:文件“/cn/Case.aspx”不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Void CheckVirtualFileExists(System.Web.VirtualPath)
+引发错误的路径:http://localhost:1796/cn/Case.aspx?ProductTypeID=9
+页面来源:http://localhost:1796/cn/Case.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 00:17:51
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 在将 nvarchar 值 '$' 转换成数据类型 int 时失败。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   在 System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   在 System.Data.SqlClient.SqlDataReader.Read()
+   在 System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   在 System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   在 System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HxSoft.Common.SqlHelper.GetDataSet(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 63
+   在 HxSoft.Common.DbHelper.GetDataSet(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 54
+   在 HxSoft.DAL.AccDAL.GetDataTable(String strSql, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AccDAL.cs:行号 29
+   在 HxSoft.BLL.AccBLL.DataPageBindForCn(String strSql, DbParameter[] cmdParams, String objType, Object obj, Int32 PageSize, Int32 CurrentPage, String PageUrl) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AccBLL.cs:行号 110
+   在 HxSoft.Web.cn.UserControl.WUC_Product_List.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Product_List.ascx.cs:行号 231
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_about_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_uyricba_.7.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/Case-9.html?ClassEnName=Case&ProductTypeID=$
+页面来源:http://localhost:1796/cn/Case.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 00:20:15
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 参数化查询 '(@AdPositionID nvarchar(4000))select * from t_Ad where IsClose=0' 需要参数 '@AdPositionID'，但未提供该参数。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.AdDAL.GetInfoList(String strAdPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AdDAL.cs:行号 142
+   在 HxSoft.BLL.AdBLL.GetInfoList(String strAdPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AdBLL.cs:行号 59
+   在 HxSoft.Web.cn.UserControl.WUC_Banner.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Banner.ascx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_product_details_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_vgen6l1b.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/product-details-4.html?ProductID=4
+时间:2014-11-19 00:20:16
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 参数化查询 '(@AdPositionID nvarchar(4000))select * from t_Ad where IsClose=0' 需要参数 '@AdPositionID'，但未提供该参数。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.AdDAL.GetInfoList(String strAdPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AdDAL.cs:行号 142
+   在 HxSoft.BLL.AdBLL.GetInfoList(String strAdPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AdBLL.cs:行号 59
+   在 HxSoft.Web.cn.UserControl.WUC_Banner.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Banner.ascx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_product_details_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_vgen6l1b.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/product-details-4.html?ProductID=4
+页面来源:http://localhost:1796/cn/Case.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 00:45:10
+IP:127.0.0.1
+错误描述:文件“/Admin/Extension/SearchEngine.aspx”不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Void CheckVirtualFileExists(System.Web.VirtualPath)
+引发错误的路径:http://localhost:1796/Admin/Extension/SearchEngine.aspx
+时间:2014-11-19 00:52:36
+IP:127.0.0.1
+错误描述:文件“/Admin/Extension/SearchEngine.aspx”不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Void CheckVirtualFileExists(System.Web.VirtualPath)
+引发错误的路径:http://localhost:1796/Admin/Extension/SearchEngine.aspx
+时间:2014-11-19 00:57:46
+IP:127.0.0.1
+错误描述:文件“/cn/IsSearch=0&SearchKey=&/Default.aspx”不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Void CheckVirtualFileExists(System.Web.VirtualPath)
+引发错误的路径:http://localhost:1796/cn/IsSearch=0&SearchKey=&/Default.aspx
+页面来源:http://localhost:1796/cn/Case.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:00:59
+IP:127.0.0.1
+错误描述:文件“/Admin/Extension/SearchEngine.aspx”不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Void CheckVirtualFileExists(System.Web.VirtualPath)
+引发错误的路径:http://localhost:1796/Admin/Extension/SearchEngine.aspx
+时间:2014-11-19 01:01:27
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 参数化查询 '(@AdPositionID nvarchar(4000))select * from t_Ad where IsClose=0' 需要参数 '@AdPositionID'，但未提供该参数。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.AdDAL.GetInfoList(String strAdPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AdDAL.cs:行号 142
+   在 HxSoft.BLL.AdBLL.GetInfoList(String strAdPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AdBLL.cs:行号 59
+   在 HxSoft.Web.cn.UserControl.WUC_Banner.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Banner.ascx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_product_details_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_9a-vywij.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/product-details-14.html?ProductID=14
+页面来源:http://localhost:1796/cn/Case-13.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:09:43
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:09:43
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:09:44
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:09:44
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:10:15
+IP:127.0.0.1
+错误描述:文件“/cn/product_details.aspx”不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Void CheckVirtualFileExists(System.Web.VirtualPath)
+引发错误的路径:http://localhost:1796/cn/product_details.aspx?ProductID=1
+页面来源:http://localhost:1796/cn/Case.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:10:39
+IP:127.0.0.1
+错误描述:未能加载类型“HxSoft.Web.cn.case_details”。
+引发错误的实例:System.Web.HttpParseException: 未能加载类型“HxSoft.Web.cn.case_details”。 ---> System.Web.HttpException: 未能加载类型“HxSoft.Web.cn.case_details”。
+   在 System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   在 System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   在 System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+堆栈描述:
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseReader(StreamReader reader, VirtualPath virtualPath)
+   在 System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   在 System.Web.UI.TemplateParser.ParseInternal()
+   在 System.Web.UI.TemplateParser.Parse()
+   在 System.Web.UI.TemplateParser.Parse(ICollection referencedAssemblies, VirtualPath virtualPath)
+   在 System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+引发错误的路径:http://localhost:1796/cn/case_details.aspx?ProductID=1
+页面来源:http://localhost:1796/cn/Case.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:11:08
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 参数化查询 '(@AdPositionID nvarchar(4000))select * from t_Ad where IsClose=0' 需要参数 '@AdPositionID'，但未提供该参数。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.AdDAL.GetInfoList(String strAdPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AdDAL.cs:行号 142
+   在 HxSoft.BLL.AdBLL.GetInfoList(String strAdPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AdBLL.cs:行号 59
+   在 HxSoft.Web.cn.UserControl.WUC_Banner.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Banner.ascx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_case_details_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_cilfnnub.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/case-details-1.html?ProductID=1
+页面来源:http://localhost:1796/cn/Case.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:40:21
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:40:21
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:40:21
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-19 01:40:22
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtDetails&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------

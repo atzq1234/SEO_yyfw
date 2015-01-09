@@ -1,0 +1,172 @@
+时间:2014-12-26 14:52:09
+IP:222.187.56.246
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL 网络接口, error: 26 - 定位指定的服务器/实例时出错)
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir()
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir()
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e)
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\386e38ee\d73bac47\App_Web_vhnoyyc6.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://yyfw20141222.6.gwidc.com/Default.aspx
+页面来源:http://www.gwidc.com/member/host.asp
+---------------------------------------------------------------------------------------------------------------
+时间:2014-12-26 14:52:13
+IP:222.187.56.246
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL 网络接口, error: 26 - 定位指定的服务器/实例时出错)
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir()
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir()
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e)
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\386e38ee\d73bac47\App_Web_vhnoyyc6.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://yyfw20141222.6.gwidc.com/Default.aspx
+页面来源:http://yyfw20141222.6.gwidc.com/404.htm?aspxerrorpath=/Default.aspx
+---------------------------------------------------------------------------------------------------------------
+时间:2014-12-26 14:52:32
+IP:222.187.56.246
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL 网络接口, error: 26 - 定位指定的服务器/实例时出错)
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir()
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir()
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e)
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\386e38ee\d73bac47\App_Web_vhnoyyc6.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://yyfw20141222.6.gwidc.com/Default.aspx
+页面来源:http://yyfw20141222.6.gwidc.com/404.htm?aspxerrorpath=/Default.aspx
+---------------------------------------------------------------------------------------------------------------
+时间:2014-12-26 14:52:38
+IP:222.187.56.246
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL 网络接口, error: 26 - 定位指定的服务器/实例时出错)
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir()
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir()
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e)
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\386e38ee\d73bac47\App_Web_vhnoyyc6.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://yyfw20141222.6.gwidc.com/Default.aspx
+页面来源:http://yyfw20141222.6.gwidc.com/404.htm?aspxerrorpath=/Default.aspx
+---------------------------------------------------------------------------------------------------------------
+时间:2014-12-26 14:52:42
+IP:222.187.56.246
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL 网络接口, error: 26 - 定位指定的服务器/实例时出错)
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir()
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir()
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e)
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\386e38ee\d73bac47\App_Web_vhnoyyc6.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://yyfw20141222.6.gwidc.com/Default.aspx
+页面来源:http://yyfw20141222.6.gwidc.com/404.htm?aspxerrorpath=/Default.aspx
+---------------------------------------------------------------------------------------------------------------
+时间:2014-12-26 14:53:54
+IP:59.188.245.184
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL 网络接口, error: 26 - 定位指定的服务器/实例时出错)
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams)
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir()
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir()
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e)
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\386e38ee\d73bac47\App_Web_vhnoyyc6.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://yyfw20141222.6.gwidc.com/Default.aspx

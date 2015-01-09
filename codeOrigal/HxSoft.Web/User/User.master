@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="HxSoft.Web.User.User" %>
+
+<%@ Register src="User.Config.ascx" tagname="Config" tagprefix="User" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>无标题页</title>
+    <script src="/App_Themes/Js/swfobject.js" type="text/javascript"></script>
+    <script src="/App_Themes/Jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="/App_Themes/fancyValidate/fancyValidate.min.js" type="text/javascript"></script>
+    <script src="/App_Themes/fancyValidate/fancyValidate.additional.min.js" type="text/javascript"></script>
+    <script src="/App_Themes/fancyValidate/fancyValidate.my.additional.js" type="text/javascript"></script>
+    <script src="/App_Themes/Custom/common.js" type="text/javascript"></script>
+    <script src="/User/User_Themes/Js/user.js" type="text/javascript"></script>
+    <link href="/App_Themes/fancyValidate/fancyValidate.css" rel="stylesheet" type="text/css" />
+    <link href="/User/User_Themes/Css/Style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <User:Config ID="Site1" runat="server" ConfigID="1"/>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

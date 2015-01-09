@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="WUC_Block_Content_Part.ascx.cs" Inherits="HxSoft.Web.cn.UserControl.WUC_Block_Content_Part" %>
+<asp:Literal ID="litBlockContent" runat="server"></asp:Literal>

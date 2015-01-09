@@ -1,0 +1,94 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>页面不存在</title>
+    <style type="text/css">
+        body
+        {
+            background: #ecf3ff;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        #error
+        {
+            width: 626px;
+            height: 260px;
+            margin: 145px auto;
+            position: relative;
+            background: url(/404.png) no-repeat;
+        }
+        #error a.leftbtn
+        {
+            width: 122px;
+            height: 122px;
+            position: absolute;
+            left: 64px;
+            top: 43px;
+            display: block;
+        }
+        #error span.tit
+        {
+            position: absolute;
+            left: 260px;
+            top: 43px;
+            font-size: 20px;
+            font-family: "微软雅黑" , "宋体";
+            color: #666;
+        }
+        #error a.return
+        {
+            position: absolute;
+            left: 280px;
+            top: 82px;
+            font-size: 14px;
+            font-family: "宋体";
+            color: #2755ff;
+        }
+        #error a.return span#time
+        {
+            padding: 0 3px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #666;
+        }
+        #error a.index
+        {
+            position: absolute;
+            left: 282px;
+            top: 116px;
+            font-size: 14px;
+            font-family: "宋体";
+            color: #2755ff;
+        }
+        #error a.prepage
+        {
+            position: absolute;
+            left: 282px;
+            top: 147px;
+            font-size: 14px;
+            font-family: "宋体";
+            color: #2755ff;
+        }
+    </style>
+</head>
+<body>
+    <div id="error">
+        <a class="leftbtn" href="/"></a><span class="tit">抱歉，你访问的页面不存在或已删除！</span> <a class="return">页面将在<span id="time">5</span>秒后返回首页</a> <a class="index" href="/">返回首页</a> <a class="prepage" href="javascript:history.go(-1)">返回上一页</a>
+    </div>
+    <script type="text/javascript">
+        var i = 5;
+        function goTo() {
+            i = i - 1;
+            document.getElementById("time").innerHTML = i;
+            if (i <= 0) {
+                window.location.href = '/';
+            }
+            else {
+                setTimeout('goTo()', 1000);
+            }
+        }
+        goTo();
+    </script>
+</body>
+</html>

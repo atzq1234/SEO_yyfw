@@ -1,0 +1,25 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+img{border:none;}
+body{background:#dde2e3 url(../images/body_bg.png) top repeat-x;}
+#main{
+	width:1000px;height:550px;margin:0 auto;position:relative;
+	background:url(../images/login.jpg) top no-repeat;
+}
+#main form input{border:0 none;color:#333;font:normal 14px/26px "宋体";}
+#main form input.txt{width:151px;height:26px;padding-left:5px;position:absolute;left:468px;top:267px;}
+#main form input.psw{width:151px;height:26px;padding-left:5px;position:absolute;left:468px;top:318px;}
+#main form input.ver{width:116px;height:26px;padding-left:5px;position:absolute;left:441px;top:370px;}
+#main form img.ver{position:absolute;left:567px;top:371px;}
+#main form input.submit{
+	width:77px;height:27px;position:absolute;left:440px;top:425px;
+	color:#fff;text-align:center;letter-spacing:5px;cursor:pointer;
+	background:url(../images/inputBtn.png) no-repeat;
+}
+#main form input.reset{
+	width:77px;height:27px;position:absolute;left:547px;top:425px;
+	color:#fff;text-align:center;letter-spacing:5px;cursor:pointer;
+	background:url(../images/inputBtn.png) no-repeat;
+}
+#main form  #errMsg{ position:absolute; left:440px; top:465px;}
+

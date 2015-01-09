@@ -1,0 +1,20 @@
+MSClass´úÂëÊµÀý:
+    <script type="text/javascript">
+        new Marquee({
+            MSClassID: "boxContent",
+            ContentID: "ulContent",
+            //TabID: "tabList",
+            Direction: 2,
+            //PrevBtnID: "LeftButton",
+            //NextBtnID: "RightButton",
+            Step: [0.5,1],
+            Width: 744,
+            Height: 171,
+            Timer: 30,
+            DelayTime: 3000,
+            WaitTime: 3000,
+            ScrollStep: 145,
+            SwitchType: 0,
+            AutoStart: true
+        });
+    </script>

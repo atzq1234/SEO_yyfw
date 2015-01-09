@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\obj\Debug\Package\PackageTmp" />
+  <setAcl path="E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <setAcl path="E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\obj\Debug\Package\PackageTmp\App_Data" setAclResourceType="Directory" setAclAccess="Write" />
+</sitemanifest>

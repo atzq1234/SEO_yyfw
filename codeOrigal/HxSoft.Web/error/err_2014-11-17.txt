@@ -1,0 +1,1287 @@
+时间:2014-11-17 00:13:40
+IP:127.0.0.1
+错误描述:文件“/Admin/Extension/SearchEngine.aspx”不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Void CheckVirtualFileExists(System.Web.VirtualPath)
+引发错误的路径:http://localhost:1796/Admin/Extension/SearchEngine.aspx
+时间:2014-11-17 00:13:41
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2014-11-17 00:13:41
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/favicon.ico
+时间:2014-11-17 00:18:07
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL 网络接口, error: 26 - 定位指定的服务器/实例时出错)
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:19:31
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:19:33
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:19:34
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:19:34
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:19:34
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:19:34
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:19:34
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:19:35
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:20:43
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:20:44
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:20:44
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:20:44
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:20:44
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:20:45
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:20:45
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:20:45
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:20:47
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:07
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:07
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:08
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:08
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:08
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:08
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:08
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:09
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:09
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:09
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:40
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:43
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:21:44
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ConfigDAL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ConfigDAL.cs:行号 323
+   在 HxSoft.BLL.ConfigBLL.GetDefaultSiteDir() 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ConfigBLL.cs:行号 149
+   在 HxSoft.Web._default.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\default.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_-zq18evi.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/default.aspx
+时间:2014-11-17 00:36:49
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/Admin/Admin_Themes/images/headline.gif
+页面来源:http://localhost:1796/Admin/Admin_Themes/Css/Style.css
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 00:42:46
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/cn/UserControl/images/two_code.jpg
+时间:2014-11-17 00:44:40
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 参数化查询 '(@ClassID nvarchar(4000))select * from t_Class where IsClose=0 a' 需要参数 '@ClassID'，但未提供该参数。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ClassDAL.GetInfo2(String strClassID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ClassDAL.cs:行号 163
+   在 HxSoft.BLL.ClassBLL.GetCacheInfo2(String strConfigID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ClassBLL.cs:行号 90
+   在 HxSoft.Web.cn.UserControl.WUC_Feedback.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Feedback.ascx.cs:行号 35
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_index_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_44rcelmj.6.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/index.html
+页面来源:http://localhost:1796/cn/Website.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 00:45:57
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 参数化查询 '(@ClassID nvarchar(4000))select * from t_Class where IsClose=0 a' 需要参数 '@ClassID'，但未提供该参数。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ClassDAL.GetInfo2(String strClassID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ClassDAL.cs:行号 163
+   在 HxSoft.BLL.ClassBLL.GetCacheInfo2(String strConfigID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ClassBLL.cs:行号 90
+   在 HxSoft.Web.cn.UserControl.WUC_Feedback.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Feedback.ascx.cs:行号 35
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_index_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_ou4-6uvd.6.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/index.html
+页面来源:http://localhost:1796/cn/Website.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 00:46:05
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 参数化查询 '(@ClassID nvarchar(4000))select * from t_Class where IsClose=0 a' 需要参数 '@ClassID'，但未提供该参数。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ClassDAL.GetInfo2(String strClassID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ClassDAL.cs:行号 163
+   在 HxSoft.BLL.ClassBLL.GetCacheInfo2(String strConfigID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ClassBLL.cs:行号 90
+   在 HxSoft.Web.cn.UserControl.WUC_Feedback.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Feedback.ascx.cs:行号 35
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_index_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_cphvngou.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/index.html
+页面来源:http://localhost:1796/cn/Website.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 00:48:24
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 参数化查询 '(@ClassID nvarchar(4000))select * from t_Class where IsClose=0 a' 需要参数 '@ClassID'，但未提供该参数。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.ClassDAL.GetInfo2(String strClassID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\ClassDAL.cs:行号 163
+   在 HxSoft.BLL.ClassBLL.GetCacheInfo2(String strConfigID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\ClassBLL.cs:行号 90
+   在 HxSoft.Web.cn.UserControl.WUC_Feedback.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Feedback.ascx.cs:行号 35
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_index_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web___kdmjai.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/index.html
+页面来源:http://localhost:1796/cn/Help.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 01:02:10
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 不能将值 NULL 插入列 'AdID'，表 'seo.dbo.t_Ad'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 HxSoft.Common.SqlHelper.ExecuteSql(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 108
+   在 HxSoft.Common.DbHelper.ExecuteSql(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 79
+   在 HxSoft.DAL.AdDAL.InsertInfo(AdModel adModel) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AdDAL.cs:行号 157
+   在 HxSoft.BLL.AdBLL.InsertInfo(AdModel adModel) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AdBLL.cs:行号 97
+   在 HxSoft.Web.Admin.Extension.Ad_Add.btnSave_Click(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\Admin\Extension\Ad_Add.aspx.cs:行号 196
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.admin_extension_ad_add_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_ot5hkdci.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/admin/Extension/Ad_Add.aspx
+页面来源:http://localhost:1796/admin/Extension/Ad_Add.aspx
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 01:14:54
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 参数化查询 '(@PositionID nvarchar(4000))select * from t_Ad where IsClose=0 a' 需要参数 '@PositionID'，但未提供该参数。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.AdDAL.GetInfoList(String strPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AdDAL.cs:行号 142
+   在 HxSoft.BLL.AdBLL.GetInfoList(String strPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AdBLL.cs:行号 59
+   在 HxSoft.Web.cn.UserControl.WUC_Banner.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Banner.ascx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_index_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_o1dpgtmk.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/index.html
+页面来源:http://localhost:1796/cn/index.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 01:16:10
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 参数化查询 '(@AdPositionID nvarchar(4000))select * from t_Ad where IsClose=0' 需要参数 '@AdPositionID'，但未提供该参数。
+   在 HxSoft.Common.SqlHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 158
+   在 HxSoft.Common.DbHelper.GetDataReader(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 104
+   在 HxSoft.DAL.AdDAL.GetInfoList(String strAdPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AdDAL.cs:行号 142
+   在 HxSoft.BLL.AdBLL.GetInfoList(String strAdPositionID) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AdBLL.cs:行号 59
+   在 HxSoft.Web.cn.UserControl.WUC_Banner.Page_Load(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\cn\UserControl\WUC_Banner.ascx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.cn_index_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_qkconvq9.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/cn/index.html
+页面来源:http://localhost:1796/cn/index.html
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 01:20:50
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 不能将值 NULL 插入列 'AdPositionID'，表 'seo.dbo.t_AdPosition'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 HxSoft.Common.SqlHelper.ExecuteSql(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 108
+   在 HxSoft.Common.DbHelper.ExecuteSql(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 79
+   在 HxSoft.DAL.AdPositionDAL.InsertInfo(AdPositionModel adPosModel) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AdPositionDAL.cs:行号 177
+   在 HxSoft.BLL.AdPositionBLL.InsertInfo(AdPositionModel adPosModel) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AdPositionBLL.cs:行号 107
+   在 HxSoft.Web.Admin.Extension.AdPosition_Add.btnSave_Click(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\Admin\Extension\AdPosition_Add.aspx.cs:行号 190
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.admin_extension_adposition_add_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_vj7lkd6y.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/admin/Extension/AdPosition_Add.aspx
+页面来源:http://localhost:1796/admin/Extension/AdPosition_Add.aspx
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 01:21:06
+IP:127.0.0.1
+错误描述:引发类型为“System.Web.HttpUnhandledException”的异常。
+引发错误的实例:System.Data.SqlClient.SqlException: 不能将值 NULL 插入列 'AdPositionID'，表 'seo.dbo.t_AdPosition'；列不允许有 Null 值。INSERT 失败。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 HxSoft.Common.SqlHelper.ExecuteSql(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\SqlHelper.cs:行号 108
+   在 HxSoft.Common.DbHelper.ExecuteSql(CommandType cmdType, String cmdText, DbParameter[] cmdParams) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Common\DbHelper.cs:行号 79
+   在 HxSoft.DAL.AdPositionDAL.InsertInfo(AdPositionModel adPosModel) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.DAL\AdPositionDAL.cs:行号 177
+   在 HxSoft.BLL.AdPositionBLL.InsertInfo(AdPositionModel adPosModel) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.BLL\AdPositionBLL.cs:行号 107
+   在 HxSoft.Web.Admin.Extension.AdPosition_Add.btnSave_Click(Object sender, EventArgs e) 位置 E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Web\Admin\Extension\AdPosition_Add.aspx.cs:行号 190
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+堆栈描述:
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.admin_extension_adposition_add_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\33b3b521\f8a516c8\App_Web_vj7lkd6y.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:Boolean HandleError(System.Exception)
+引发错误的路径:http://localhost:1796/admin/Extension/AdPosition_Add.aspx
+页面来源:http://localhost:1796/admin/Extension/AdPosition_Add.aspx
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 01:26:03
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 01:26:03
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 01:26:03
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/paypal/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------
+时间:2014-11-17 01:26:03
+IP:127.0.0.1
+错误描述:文件不存在。
+引发错误的实例:
+堆栈描述:
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+错误源:System.Web
+引发错误的方法:System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+引发错误的路径:http://localhost:1796/FCKeditor/editor/plugins/skype/lang/zh-cn.js
+页面来源:http://localhost:1796/FCKeditor/editor/fckeditor.html?InstanceName=txtClassContent&Toolbar=Default
+---------------------------------------------------------------------------------------------------------------

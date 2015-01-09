@@ -1,0 +1,5 @@
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Model\bin\x64\Debug\HxSoft.Model.dll
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Model\bin\x64\Debug\HxSoft.Model.pdb
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Model\obj\x64\Debug\ResolveAssemblyReference.cache
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Model\obj\x64\Debug\HxSoft.Model.dll
+E:\项目集\汇鑫\E8企业网站管理系统v2.2.1.1SEO\HxSoft.Model\obj\x64\Debug\HxSoft.Model.pdb

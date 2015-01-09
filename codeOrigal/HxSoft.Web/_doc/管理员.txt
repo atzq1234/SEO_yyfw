@@ -1,0 +1,16 @@
+超级管理员:
+masteryang
+masteryang@2
+
+管理员:
+webadmin
+webadmin#123456
+
+版本:1.6.1.0
+超级管理员:
+hxadmin
+hxadmin#20110901
+
+管理员:
+webadmin
+webadmin#2011
