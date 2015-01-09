@@ -1,0 +1,292 @@
+/*------------------------------------------*/
+/*注册表单样式*/
+.reg_form
+{
+	border-collapse: collapse;
+}
+.reg_form td
+{
+	border: solid 1px #CCE4FD;
+	padding: 5px;
+}
+.reg_form td[align=right]
+{
+	background-color: #F7FAFD;
+}
+.reg_form_row input
+{
+	border: 1px solid #89CAED;
+	color: #004A80;
+	background: #fff url(../images/control_bg.gif) repeat-x left bottom;
+	padding: 2px;
+	margin: 0 6px;
+}
+.reg_form_btn input
+{
+	background: #4BA3DE url(../images/bt_bg.gif) repeat-x left bottom;
+	cursor: pointer;
+	border: 2px solid #38B3F0;
+	color: #fff;
+	padding: 1px 6px;
+}
+/*------------------------------------------*/
+/*登录表单样式*/
+.login_form
+{
+	border-collapse: collapse;
+}
+.login_form td
+{
+	border: solid 1px #CCE4FD;
+	padding: 5px;
+}
+.login_form td[align=right]
+{
+	background-color: #F7FAFD;
+}
+.login_form_row input
+{
+	border: 1px solid #89CAED;
+	color: #004A80;
+	background: #fff url(../images/control_bg.gif) repeat-x left bottom;
+	padding: 2px;
+	margin: 0 6px;
+}
+.login_form_btn input
+{
+	background: #4BA3DE url(../images/bt_bg.gif) repeat-x left bottom;
+	cursor: pointer;
+	border: 2px solid #38B3F0;
+	color: #fff;
+	padding: 1px 6px;
+}
+/*------------------------------------------*/
+/*表格表单样式*/
+.table_form
+{
+	border-collapse: collapse;
+}
+.table_form td
+{
+	border: solid 1px #CCE4FD;
+	padding: 5px;
+}
+.table_form td[align=right]
+{
+	background-color: #F7FAFD;
+}
+.table_form_row input
+{
+	border: 1px solid #89CAED;
+	color: #004A80;
+	background: #fff url(../images/control_bg.gif) repeat-x left bottom;
+	padding: 2px;
+	margin: 0 6px;
+}
+.table_form_btn input
+{
+	background: #4BA3DE url(../images/bt_bg.gif) repeat-x left bottom;
+	cursor: pointer;
+	border: 2px solid #38B3F0;
+	color: #fff;
+	padding: 1px 6px;
+}
+/*--------------------------------------*/
+/*表格导航样式*/
+.table_nav
+{
+}
+.table_nav td
+{
+    padding-left: 3px;
+    height: 28px;
+    line-height: 28px;
+    color: #333;
+    background: url(../images/nav_bg.gif) repeat-x left bottom;
+}
+/*--------------------------------------*/
+/*表格操作样式*/
+.table_op
+{
+}
+.table_op td
+{
+    color: #333;
+    height: 20px;
+    padding: 10px 0 4px 6px;
+}
+.table_op td a
+{
+    border: 1px solid #89CAED;
+    color: #004A80;
+    background: #fff url(../images/control_bg.gif) repeat-x left bottom;
+    padding: 3px;
+    margin-right: 3px;
+}
+/*------------------------------------------*/
+/*表格查询表格*/
+.table_query
+{
+}
+.table_query td
+{
+    padding: 5px;
+}
+.table_query_row input
+{
+	border: 1px solid #89CAED;
+	color: #004A80;
+	background: #fff url(../images/control_bg.gif) repeat-x left bottom;
+	padding: 2px;
+	margin: 0 6px;
+}
+.table_query_btn input
+{
+    background: #4BA3DE url(../images/bt_bg.gif) repeat-x left bottom;
+    cursor: pointer;
+    border: 2px solid #38B3F0;
+    color: #fff;
+    padding: 1px 6px;
+}
+/*--------------------------------------*/
+/*表格列表样式*/
+.table_list
+{
+    background-color: #D0E3FF;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    border-collapse: collapse;
+}
+/*单元格*/
+.table_list td
+{
+    border: solid 1px #D0E3FF;
+    padding: 5px !important;
+}
+/*头部*/
+.table_list_title
+{
+    background: #CDE8FF url(../images/tabletit_bg.gif) repeat-x left top;
+    font-weight: bold;
+    cursor: pointer;
+    color: #004474;
+}
+/*普通项*/
+.table_list_row_normal
+{
+    background-color: #FFFFFF;
+}
+/*交替项*/
+.table_list_row_alert
+{
+    background-color: #F1FCFD;
+}
+/*选择项*/
+.table_list_row_selected
+{
+    background-color: #FDF5E6;
+}
+/*操作*/
+.table_list a
+{
+    color: #005DFF;
+}
+.table_list a:hover
+{
+    color: #FF0000;
+}
+/*------------------------------------------*/
+/*分页样式*/
+.pager
+{
+    text-align: right;
+    padding: 5px 5px 0 0;
+}
+
+.pager p
+{
+    text-align: left;
+}
+
+.pager b
+{
+    color: #004474;
+}
+
+.pager span
+{
+    color: Gray;
+    padding-left: 2px;
+}
+
+.pager a
+{
+    padding: 0 3px;
+    color: #004474;
+}
+.pager a:hover
+{
+    color: #333;
+}
+
+/*------------------------------------------*/
+/*回复列表样式*/
+.reply_box
+{
+	border: dotted 1px #666666;
+	margin: 5px;
+	padding: 5px;
+}
+.reply_tit
+{
+	height: 25px;
+	line-height: 25px;
+}
+
+.reply_cont
+{
+	line-height: 25px;
+}
+
+.table_message
+{
+	border-collapse: collapse;
+	margin-top:10px;
+}
+.table_message_title
+{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #D0E3FF;
+}
+.table_message td
+{
+	border: solid 1px #CCE4FD;
+	padding: 5px;
+}
+.table_message_row input
+{
+	border: 1px solid #89CAED;
+	color: #004A80;
+	background: #fff url(../images/control_bg.gif) repeat-x left bottom;
+	padding: 2px;
+	margin: 0 6px;
+}
+.table_message_btn input
+{
+	background: #4BA3DE url(../images/bt_bg.gif) repeat-x left bottom;
+	cursor: pointer;
+	border: 2px solid #38B3F0;
+	color: #fff;
+	padding: 1px 6px;
+}
+/*------------------------------------------*/
+/*取消内嵌表格样式*/
+.table_cancel
+{
+}
+.table_cancel td
+{
+    border: 0px;
+    padding: 0px;
+}
